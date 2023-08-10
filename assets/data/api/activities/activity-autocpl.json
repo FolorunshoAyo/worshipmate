@@ -1,0 +1,32 @@
+[  
+    {  
+        "name":"status",
+        "desc":"how do you feel?",
+        "pic":"https://localhost/worshipmate/asset/img/icons/activities/feeling.svg"
+    },
+    {  
+        "name":"drinking",
+        "desc":"What are you drinking?",
+        "pic":"https://localhost/worshipmate/asset/img/icons/activities/drinking.svg"
+    },
+    {  
+        "name":"eating",
+        "desc":"What are you eating?",
+        "pic":"https://localhost/worshipmate/asset/img/icons/activities/eating.svg"
+    },
+    {  
+        "name":"reading",
+        "desc":"What are you reading?",
+        "pic":"https://localhost/worshipmate/asset/img/icons/activities/reading.svg"
+    },
+    {  
+        "name":"watching",
+        "desc":"What are you watching?",
+        "pic":"https://localhost/worshipmate/asset/img/icons/activities/watching.svg"
+    },
+    {  
+        "name":"travelling",
+        "desc":"Where are you travelling to?",
+        "pic":"https://localhost/worshipmate/asset/img/icons/activities/travelling.svg"
+    }
+]

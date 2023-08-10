@@ -1,0 +1,70 @@
+[
+    {
+        "name": "Awesome",
+        "pic": "https://localhost/worshipmate/assets/img/icons/emoji/awesome.svg"
+    },
+    {
+        "name": "Great",
+        "pic": "https://localhost/worshipmate/assets/img/icons/emoji/great.svg"
+    },
+    {
+        "name": "Calm",
+        "pic": "https://localhost/worshipmate/assets/img/icons/emoji/calm.svg"
+    },
+    {
+        "name": "Cool",
+        "pic": "https://localhost/worshipmate/assets/img/icons/emoji/cool.svg"
+    },
+    {
+        "name": "Sad",
+        "pic": "https://localhost/worshipmate/assets/img/icons/emoji/sad.svg"
+    },
+    {
+        "name": "Crazy",
+        "pic": "https://localhost/worshipmate/assets/img/icons/emoji/crazy.svg"
+    },
+    {
+        "name": "Devil",
+        "pic": "https://localhost/worshipmate/assets/img/icons/emoji/devil.svg"
+    },
+    {
+        "name": "Embarrassed",
+        "pic": "https://localhost/worshipmate/assets/img/icons/emoji/embarrassed.svg"
+    },
+    {
+        "name": "Angry",
+        "pic": "https://localhost/worshipmate/assets/img/icons/emoji/angry.svg"
+    },
+    {
+        "name": "Exhausted",
+        "pic": "https://localhost/worshipmate/assets/img/icons/emoji/exhausted.svg"
+    },
+    {
+        "name": "Hilarious",
+        "pic": "https://localhost/worshipmate/assets/img/icons/emoji/hilarious.svg"
+    },
+    {
+        "name": "In love",
+        "pic": "https://localhost/worshipmate/assets/img/icons/emoji/love.svg"
+    },
+    {
+        "name": "Like a robot",
+        "pic": "https://localhost/worshipmate/assets/img/icons/emoji/robot.svg"
+    },
+    {
+        "name": "Shocked",
+        "pic": "https://localhost/worshipmate/assets/img/icons/emoji/shocked.svg"
+    },
+    {
+        "name": "Sick",
+        "pic": "https://localhost/worshipmate/assets/img/icons/emoji/sick.svg"
+    },
+    {
+        "name": "Sleeping",
+        "pic": "https://localhost/worshipmate/assets/img/icons/emoji/sleeping.svg"
+    },
+    {
+        "name": "Thinking",
+        "pic": "https://localhost/worshipmate/assets/img/icons/emoji/thinking.svg"
+    }
+]

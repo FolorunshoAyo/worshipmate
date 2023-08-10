@@ -1,0 +1,114 @@
+[
+    {
+        "id": "0",
+        "name": "Jenna Davis",
+        "position": "Influencer",
+        "location": "Melbourne",
+        "pic": "https://localhost/worshipmate/assets/img/avatars/jenna.png",
+        "badge": "https://localhost/worshipmate/assets/img/icons/flags/au.svg"
+    },
+    {
+        "id": "1",
+        "name": "Dan Walker",
+        "position": "Developer",
+        "location": "New York",
+        "pic": "https://localhost/worshipmate/assets/img/avatars/dan.jpg",
+        "badge": "https://localhost/worshipmate/assets/img/icons/flags/us.svg"
+    },
+    {
+        "id": "2",
+        "name": "Stella Bergmann",
+        "position": "Student",
+        "location": "Berlin",
+        "pic": "https://localhost/worshipmate/assets/img/avatars/stella.jpg",
+        "badge": "https://localhost/worshipmate/assets/img/icons/flags/de.svg"
+    },
+    {
+        "id": "3",
+        "name": "Daniel Wellington",
+        "position": "Teacher",
+        "location": "London",
+        "pic": "https://localhost/worshipmate/assets/img/avatars/daniel.jpg",
+        "badge": "https://localhost/worshipmate/assets/img/icons/flags/gb.svg"
+    },
+    {
+        "id": "4",
+        "name": "David Kim",
+        "position": "Developer",
+        "location": "Los Angeles",
+        "pic": "https://localhost/worshipmate/assets/img/avatars/david.jpg",
+        "badge": "https://localhost/worshipmate/assets/img/icons/flags/us.svg"
+    },
+    {
+        "id": "5",
+        "name": "Edward Mayers",
+        "position": "Doctor",
+        "location": "Dublin",
+        "pic": "https://localhost/worshipmate/assets/img/avatars/edward.jpeg",
+        "badge": "https://localhost/worshipmate/assets/img/icons/flags/ie.svg"
+    },
+    {
+        "id": "6",
+        "name": "Elise Walker",
+        "position": "Influencer",
+        "location": "London",
+        "pic": "https://localhost/worshipmate/assets/img/avatars/elise.jpg",
+        "badge": "https://localhost/worshipmate/assets/img/icons/flags/gb.svg"
+    },
+    {
+        "id": "10",
+        "name": "Milly Augustine",
+        "position": "Lawyer",
+        "location": "Rome",
+        "pic": "https://localhost/worshipmate/assets/img/avatars/milly.jpg",
+        "badge": "https://localhost/worshipmate/assets/img/icons/flags/it.svg"
+    },
+    {
+        "id": "12",
+        "name": "Bobby Brown",
+        "position": "Designer",
+        "location": "Paris",
+        "pic": "https://localhost/worshipmate/assets/img/avatars/bobby.jpg",
+        "badge": "https://localhost/worshipmate/assets/img/icons/flags/fr.svg"
+    },
+    {
+        "id": "13",
+        "name": "Nelly Schwartz",
+        "position": "CFO",
+        "location": "Melbourne",
+        "pic": "https://localhost/worshipmate/assets/img/avatars/nelly.png",
+        "badge": "https://localhost/worshipmate/assets/img/icons/flags/au.svg"
+    },
+    {
+        "id": "14",
+        "name": "Lana Henrikssen",
+        "position": "Student",
+        "location": "Helsinki",
+        "pic": "https://localhost/worshipmate/assets/img/avatars/lana.jpeg",
+        "badge": "https://localhost/worshipmate/assets/img/icons/flags/fi.svg"
+    },
+    {
+        "id": "15",
+        "name": "Gaelle Morris",
+        "position": "Merchant",
+        "location": "Lyon",
+        "pic": "https://localhost/worshipmate/assets/img/avatars/gaelle.jpeg",
+        "badge": "https://localhost/worshipmate/assets/img/icons/flags/fr.svg"
+    },
+    {
+        "id": "16",
+        "name": "Mike Lasalle",
+        "position": "Businessman",
+        "location": "Toronto",
+        "pic": "https://localhost/worshipmate/assets/img/avatars/mike.jpg",
+        "badge": "https://localhost/worshipmate/assets/img/icons/flags/ca.svg"
+    },
+    {
+        "id": "17",
+        "name": "Rolf Krupp",
+        "position": "Accountant",
+        "location": "Berlin",
+        "pic": "https://localhost/worshipmate/assets/img/avatars/rolf.jpg",
+        "badge": "https://localhost/worshipmate/assets/img/icons/flags/de.svg"
+    }
+]

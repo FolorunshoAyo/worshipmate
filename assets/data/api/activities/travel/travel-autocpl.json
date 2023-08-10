@@ -1,0 +1,58 @@
+[
+    {
+        "name": "USA",
+        "pic": "https://localhost/worshipmate/assets/img/icons/flags/us.svg"
+    },
+    {
+        "name": "France",
+        "pic": "https://localhost/worshipmate/assets/img/icons/flags/fr.svg"
+    },
+    {
+        "name": "UK",
+        "pic": "https://localhost/worshipmate/assets/img/icons/flags/gb.svg"
+    },
+    {
+        "name": "Spain",
+        "pic": "https://localhost/worshipmate/assets/img/icons/flags/es.svg"
+    },
+    {
+        "name": "Germany",
+        "pic": "https://localhost/worshipmate/assets/img/icons/flags/de.svg"
+    },
+    {
+        "name": "Canada",
+        "pic": "https://localhost/worshipmate/assets/img/icons/flags/ca.svg"
+    },
+    {
+        "name": "Japan",
+        "pic": "https://localhost/worshipmate/assets/img/icons/flags/jp.svg"
+    },
+    {
+        "name": "China",
+        "pic": "https://localhost/worshipmate/assets/img/icons/flags/cn.svg"
+    },
+    {
+        "name": "Australia",
+        "pic": "https://localhost/worshipmate/assets/img/icons/flags/au.svg"
+    },
+    {
+        "name": "South Africa",
+        "pic": "https://localhost/worshipmate/assets/img/icons/flags/za.svg"
+    },
+    {
+        "name": "Russia",
+        "pic": "https://localhost/worshipmate/assets/img/icons/flags/ru.svg"
+    },
+    {
+        "name": "Brasil",
+        "pic": "https://localhost/worshipmate/assets/img/icons/flags/br.svg"
+    },
+    {
+        "name": "Mexico",
+        "pic": "https://localhost/worshipmate/assets/img/icons/flags/mx.svg"
+    },
+    {
+        "name": "Italy",
+        "pic": "https://localhost/worshipmate/assets/img/icons/flags/it.svg"
+    }
+]

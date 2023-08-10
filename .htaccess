@@ -1,0 +1,9 @@
+# Enable rewriting engine
+RewriteEngine On
+
+# Ignore existing files and directories from rewriting
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rewrite requests to PHP files without the extension
+RewriteRule ^([^/]+)/?$ $1.php [L]

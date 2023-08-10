@@ -1,0 +1,4 @@
+# api/.htaccess
+
+# Deny all direct access to files in the api folder
+Deny from all
