@@ -36,11 +36,11 @@
 
         <!-- /partials/global/options-nav/friends-options-nav.html -->
         <?php
-        include($base_url . "views/embeds/options-nav/friends-option-nav.php");
+        include("../views/embeds/options-nav/friends-option-nav.php");
         ?>
         <!-- /partials/global/sidebar/friends-filters-panel.html -->
         <?php
-        include($base_url . "views/embeds/sidebar/friends-filters-panel.php");
+        include("../views/embeds/sidebar/friends-filters-panel.php");
         ?>
         <!-- /partials/global/pageloader/subloaders/grey-subloader.html -->
         <div class="subloader is-grey is-active">

@@ -400,33 +400,33 @@
     <!-- Change cover image modal -->
     <!--html/partials/pages/profile/timeline/modals/change-cover-modal.html-->
     <?php
-    include($base_url . "views/pages/profile/timeline/modals/change-cover-modal.php");
+    include("../views/pages/profile/timeline/modals/change-cover-modal.php");
     ?>
     <!-- Change profile pic modal -->
     <!--html/partials/pages/profile/timeline/modals/change-profile-pic-modal.html-->
     <?php
-    include($base_url . "views/pages/profile/timeline/modals/change-profile-pic-modal.php");
+    include("../views/pages/profile/timeline/modals/change-profile-pic-modal.php");
     ?>
     <!-- User photos and albums -->
     <!--html/partials/pages/profile/timeline/modals/user-photos-modal.html-->
     <?php
-    include($base_url . "views/pages/profile/timeline/modals/user-photos-modal.php");
+    include("../views/pages/profile/timeline/modals/user-photos-modal.php");
     ?>
     <!-- Profile picture crop modal -->
     <!--html/partials/pages/profile/timeline/modals/upload-crop-profile-modal.html-->
     <?php
-    include($base_url . "views/pages/profile/timeline/modals/upload-crop-profile-modal.php");
+    include("../views/pages/profile/timeline/modals/upload-crop-profile-modal.php");
     ?>
     <!-- Cover image crop modal -->
     <!--html/partials/pages/profile/timeline/modals/upload-crop-cover-modal.html-->
     <?php
-    include($base_url . "views/pages/profile/timeline/modals/upload-crop-cover-modal.php");
+    include("../views/pages/profile/timeline/modals/upload-crop-cover-modal.php");
     ?>
 
     <?php
-    include($base_url . "views/embeds/chat.php");
-    include($base_url . "views/modals/add-conversation-modal.php");
-    include($base_url . "views/embeds/explorer-menu.php");
+    include("../views/embeds/chat.php");
+    include("../views/modals/add-conversation-modal.php");
+    include("../views/embeds/explorer-menu.php");
     ?>
 
     <div id="end-tour-modal" class="modal end-tour-modal is-xsmall has-light-bg">

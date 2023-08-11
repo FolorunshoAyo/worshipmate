@@ -18,7 +18,7 @@
     <link rel="icon" type="image/png" href="assets/img/favicon.png" />
 
     <?php
-    include($base_url . "views/embeds/head-embed.php");
+    include("../views/embeds/head-embed.php");
     ?>
 </head>
 
@@ -29,7 +29,7 @@
     <div class="app-overlay"></div>
 
     <?php
-    include($base_url . "views/shared/header.php");
+    include("../views/shared/header.php");
     ?>
     <div class="view-wrapper">
 

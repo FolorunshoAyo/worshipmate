@@ -150,7 +150,7 @@
                                 <div id="education-glider" class="slider-timeline about-glider">
                                     <!--Timeline Item-->
                                     <?php
-                                    include($base_url . "views/pages/profile/about/timeline-item.php");
+                                    include("../views/pages/profile/about/timeline-item.php");
                                     ?>
                                     <!--Timeline Item-->
                                     <div class="timeline-item">
@@ -338,19 +338,19 @@
                             <div id="personal-content" class="content-section">
                                 <!-- Friends about card -->
                                 <?php
-                                include($base_url . "views/pages/profile/about/photos-about-card.php");
+                                include("../views/pages/profile/about/photos-about-card.php");
                                 ?>
                                 <!-- Photos about card -->
                                 <?php
-                                include($base_url . "views/pages/profile/about/photos-about-card.php");
+                                include("../views/pages/profile/about/photos-about-card.php");
                                 ?>
                                 <!-- Videos about card -->
                                 <?php
-                                include($base_url . "views/pages/profile/about/videos-about-card.php");
+                                include("../views/pages/profile/about/videos-about-card.php");
                                 ?>
                                 <!-- Places about card -->
                                 <?php
-                                include($base_url . "views/pages/profile/about/places-about-card.php");
+                                include("../views/pages/profile/about/places-about-card.php");
                                 ?>
                             </div>
                         </div>
@@ -363,27 +363,27 @@
         <!-- Change cover image modal -->
         <!--html/partials/pages/profile/timeline/modals/change-cover-modal.html-->
         <?php
-        include($base_url . "views/pages/profile/timeline/modals/change-cover-modal.php");
+        include("../views/pages/profile/timeline/modals/change-cover-modal.php");
         ?>
         <!-- Change profile pic modal -->
         <!--html/partials/pages/profile/timeline/modals/change-profile-pic-modal.html-->
         <?php
-        include($base_url . "views/pages/profile/timeline/modals/change-profile-pic-modal.php");
+        include("../views/pages/profile/timeline/modals/change-profile-pic-modal.php");
         ?>
         <!-- User photos and albums -->
         <!--html/partials/pages/profile/timeline/modals/user-photos-modal.html-->
         <?php
-        include($base_url . "views/pages/profile/timeline/modals/user-photos-modal.php");
+        include("../views/pages/profile/timeline/modals/user-photos-modal.php");
         ?>
         <!-- Profile picture crop modal -->
         <!--html/partials/pages/profile/timeline/modals/upload-crop-profile-modal.html-->
         <?php
-        include($base_url . "views/pages/profile/timeline/modals/upload-crop-profile-modal.php");
+        include("../views/pages/profile/timeline/modals/upload-crop-profile-modal.php");
         ?>
         <!-- Cover image crop modal -->
         <!--html/partials/pages/profile/timeline/modals/upload-crop-cover-modal.html-->
         <?php
-        include($base_url . "views/pages/profile/timeline/modals/upload-crop-cover-modal.php");
+        include("../views/pages/profile/timeline/modals/upload-crop-cover-modal.php");
         ?>
     </div>
 

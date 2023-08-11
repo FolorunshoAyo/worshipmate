@@ -18,7 +18,7 @@
     <link rel="icon" type="image/png" href="../assets/img/favicon.png" />
 
     <?php
-        include_once("../views/embeds/head-embed.php");
+        include("../views/embeds/head-embed.php");
     ?>
 </head>
 

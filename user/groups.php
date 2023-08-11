@@ -54,7 +54,7 @@
                 <div class="columns is-multiline">
                     <!--Group-->
                     <?php
-                        include($base_url . "views/pages/group/group-item.php");
+                        include("../views/pages/group/group-item.php");
                     ?>
                     <!--Group-->
                     <div class="column is-3">
