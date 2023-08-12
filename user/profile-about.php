@@ -391,6 +391,7 @@
         include("../views/embeds/chat.php");
         include("../views/modals/add-conversation-modal.php");
         include("../views/embeds/explorer-menu.php");
+        include("../views/modals/logout-confirmation-modal.php");
     ?>
 
     <div id="end-tour-modal" class="modal end-tour-modal is-xsmall has-light-bg">

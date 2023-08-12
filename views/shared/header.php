@@ -301,7 +301,7 @@
                                     </div>
                                 </a>
                                 <hr class="account-divider">
-                                <a href="/pages-main.html" class="account-item">
+                                <a href="<?= $base_url ?>user/pages-main" class="account-item">
                                     <div class="media">
                                         <div class="media-left">
                                             <div class="image">
@@ -317,7 +317,7 @@
                                         </div>
                                     </div>
                                 </a>
-                                <a href="/pages-main.html" class="account-item">
+                                <a href="<?= $base_url ?>user/pages-main" class="account-item">
                                     <div class="media">
                                         <div class="media-left">
                                             <div class="image">
@@ -333,7 +333,7 @@
                                         </div>
                                     </div>
                                 </a>
-                                <a href="/pages-main.html" class="account-item">
+                                <a href="<?= $base_url ?>user/pages-main" class="account-item">
                                     <div class="media">
                                         <div class="media-left">
                                             <div class="image">
@@ -350,7 +350,7 @@
                                     </div>
                                 </a>
                                 <hr class="account-divider">
-                                <a href="/options-settings.html" class="account-item">
+                                <a href="#" class="account-item">
                                     <div class="media">
                                         <div class="icon-wrap">
                                             <i data-feather="settings"></i>
@@ -372,7 +372,7 @@
                                         </div>
                                     </div>
                                 </a>
-                                <a class="account-item">
+                                <a class="account-item" onclick="showLogoutModal()">
                                     <div class="media">
                                         <div class="icon-wrap">
                                             <i data-feather="power"></i>
@@ -696,7 +696,7 @@
                 <a href="/navbar-v1-settings.html" class="navbar-item is-flex is-mobile-icon">
                     <span><i data-feather="settings"></i>Settings</span>
                 </a>
-                <a href="#" class="navbar-item is-flex is-mobile-icon">
+                <a href="#" onclick="showLogoutModal()" class="navbar-item is-flex is-mobile-icon">
                     <span><i data-feather="log-out"></i>Logout</span>
                 </a>
             </div>

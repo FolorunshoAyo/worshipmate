@@ -250,7 +250,8 @@
           rule: "email",
         },
       ])
-      .addField("#pwd", [{
+      .addField("#pwd", [
+      {
         rule: "customRegexp",
         value: /^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[\W_]).{8,}$/,
         errorMessage: "8+ characters, at least 1 uppercase, 1 lowercase, 1 number, 1 special character."

@@ -115,9 +115,10 @@ $userController->checkUserSession();
     </div>
 
     <?php
-    include("../views/embeds/chat.php");
-    include("../views/modals/add-conversation-modal.php");
-    include("../views/embeds/explorer-menu.php");
+        include("../views/embeds/chat.php");
+        include("../views/modals/add-conversation-modal.php");
+        include("../views/embeds/explorer-menu.php");
+        include("../views/modals/logout-confirmation-modal.php");
     ?>
     <!-- Concatenated js plugins and jQuery -->
     <script src="../assets/js/app.js"></script>

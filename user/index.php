@@ -272,18 +272,13 @@
         <script src="https://maps.google.com/maps/api/js?key=AIzaSyAGLO_M5VT7BsVdjMjciKoH1fFJWWdhDPU&libraries=places"></script>
     </div>
 
-    <!-- Chat Section -->
     <?php
         include("../views/embeds/chat.php");
-    ?>
-    <!-- Add Conversation modal -->
-    <?php
         include("../views/modals/add-conversation-modal.php");
+        include("../views/embeds/explorer-menu.php");
+        include("../views/modals/logout-confirmation-modal.php");
     ?>
-    <!-- Explorer Menu -->
-    <?php 
-    include("../views/embeds/explorer-menu.php");
-    ?>
+    
     <div id="end-tour-modal" class="modal end-tour-modal is-xsmall has-light-bg">
         <div class="modal-background"></div>
         <div class="modal-content">
