@@ -56,11 +56,11 @@
         <div class="place-list">
             <!-- Place item -->
             <?php
-            include($base_url . "views/pages/profile/about/place-item.php");
+            include("../views/pages/profile/about/place-item.php");
             ?>
             <!-- Place item -->
             <div class="place-wrapper">
-                <img src="https://via.placeholder.com/800x600" data-demo-src="assets/img/demo/unsplash/places/17.jpg" alt="">
+                <img src="https://via.placeholder.com/800x600" data-demo-src="../assets/img/demo/unsplash/places/17.jpg" alt="">
                 <div class="foot">
                     <a href="#" class="place-name">Dany's Burgers</a>
                     <div class="rating">
@@ -74,7 +74,7 @@
             </div>
             <!-- Place item -->
             <div class="place-wrapper">
-                <img src="https://via.placeholder.com/800x600" data-demo-src="assets/img/demo/unsplash/places/18.jpg" alt="">
+                <img src="https://via.placeholder.com/800x600" data-demo-src="../assets/img/demo/unsplash/places/18.jpg" alt="">
                 <div class="foot">
                     <a href="#" class="place-name">Vethnics Fashion</a>
                     <div class="rating">
@@ -88,7 +88,7 @@
             </div>
             <!-- Place item -->
             <div class="place-wrapper">
-                <img src="https://via.placeholder.com/800x600" data-demo-src="assets/img/demo/unsplash/places/19.jpg" alt="">
+                <img src="https://via.placeholder.com/800x600" data-demo-src="../assets/img/demo/unsplash/places/19.jpg" alt="">
                 <div class="foot">
                     <a href="#" class="place-name">The Smoothie Bar</a>
                     <div class="rating">
@@ -102,7 +102,7 @@
             </div>
             <!-- Place item -->
             <div class="place-wrapper">
-                <img src="https://via.placeholder.com/800x600" data-demo-src="assets/img/demo/unsplash/places/20.jpg" alt="">
+                <img src="https://via.placeholder.com/800x600" data-demo-src="../assets/img/demo/unsplash/places/20.jpg" alt="">
                 <div class="foot">
                     <a href="#" class="place-name">Eiffel Tower</a>
                     <div class="rating">
@@ -116,7 +116,7 @@
             </div>
             <!-- Place item -->
             <div class="place-wrapper">
-                <img src="https://via.placeholder.com/800x600" data-demo-src="assets/img/demo/unsplash/places/21.jpg" alt="">
+                <img src="https://via.placeholder.com/800x600" data-demo-src="../assets/img/demo/unsplash/places/21.jpg" alt="">
                 <div class="foot">
                     <a href="#" class="place-name">Lennie's Fair</a>
                     <div class="rating">

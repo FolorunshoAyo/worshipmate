@@ -8,9 +8,9 @@
             </div>
 
         </div>
-        <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/1.jpeg"></div>
+        <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/1.jpeg"></div>
         <a href="#" class="box-link">
-            <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/1.jpeg"></div>
+            <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/1.jpeg"></div>
         </a>
         <div class="box-info">
             <span class="box-category">Gaming</span>
@@ -18,9 +18,9 @@
             <span class="box-members">
                 <a href="#">5.7k members</a>
                 <div class="members-preview">
-                    <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/milly.jpg" data-user-popover="7" alt="">
-                    <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/stella.jpg" data-user-popover="2" alt="">
-                    <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/azzouz.jpg" data-user-popover="20" alt="">
+                    <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/milly.jpg" data-user-popover="7" alt="">
+                    <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/stella.jpg" data-user-popover="2" alt="">
+                    <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/azzouz.jpg" data-user-popover="20" alt="">
                 </div>
             </span>
         </div>

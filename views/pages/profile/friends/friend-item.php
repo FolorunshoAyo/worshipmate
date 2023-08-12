@@ -5,7 +5,7 @@
             <div class="chat-button">
                 <i data-feather="message-circle"></i>
             </div>
-            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/milly.jpg" data-user-popover="7" alt="">
+            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/milly.jpg" data-user-popover="7" alt="">
         </div>
         <h3>Milly Augustine</h3>
         <p>From Rome</p>

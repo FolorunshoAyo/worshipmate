@@ -28,7 +28,7 @@
             </a>
         </div>
         <div class="pop-button is-far-right has-tooltip" data-placement="right" data-title="Send message">
-            <a href="messages-inbox.html" class="inner">
+            <a href="#" class="inner">
                 <i data-feather="mail"></i>
             </a>
         </div>
@@ -47,7 +47,7 @@
         </div>
         <div class="dropdown-menu" role="menu">
             <div class="dropdown-content">
-                <a href="/pages-main.html" class="dropdown-item">
+                <a href="<?= $base_url ?>user/pages-main" class="dropdown-item">
                     <div class="media">
                         <i data-feather="activity"></i>
                         <div class="media-content">
@@ -56,7 +56,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="/pages-about.html" class="dropdown-item">
+                <a href="<?= $base_url ?>user/pages-about" class="dropdown-item">
                     <div class="media">
                         <i data-feather="align-right"></i>
                         <div class="media-content">
@@ -65,7 +65,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="/pages-community.html" class="dropdown-item">
+                <a href="<?= $base_url ?>user/pages-community" class="dropdown-item">
                     <div class="media">
                         <i data-feather="globe"></i>
                         <div class="media-content">
@@ -74,7 +74,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="/pages-photos.html" class="dropdown-item">
+                <a href="<?= $base_url ?>user/pages-photos" class="dropdown-item">
                     <div class="media">
                         <i data-feather="image"></i>
                         <div class="media-content">

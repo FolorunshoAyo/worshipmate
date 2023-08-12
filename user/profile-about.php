@@ -87,7 +87,7 @@
                                     <div class="column">
                                         <!-- Work block -->
                                         <div class="flex-block">
-                                            <img src="https://via.placeholder.com/400x400" data-demo-src="assets/img/vector/icons/logos/slicer.svg" alt="" data-page-popover="4">
+                                            <img src="https://via.placeholder.com/400x400" data-demo-src="../assets/img/vector/icons/logos/slicer.svg" alt="" data-page-popover="4">
                                             <div class="flex-block-meta">
                                                 <span>Works at <a>Slicer</a></span>
                                                 <a class="action-link">Edit your professional info</a>
@@ -98,7 +98,7 @@
                                         </div>
                                         <!-- Education block -->
                                         <div class="flex-block">
-                                            <img src="https://via.placeholder.com/400x400" data-demo-src="assets/img/vector/icons/logos/brent.svg" alt="" data-page-popover="6">
+                                            <img src="https://via.placeholder.com/400x400" data-demo-src="../assets/img/vector/icons/logos/brent.svg" alt="" data-page-popover="6">
                                             <div class="flex-block-meta">
                                                 <span>Studied at <a>Brent University</a></span>
                                                 <a class="action-link">Edit your education info</a>
@@ -109,7 +109,7 @@
                                         </div>
                                         <!-- Location block -->
                                         <div class="flex-block">
-                                            <img src="https://via.placeholder.com/400x400" data-demo-src="assets/img/vector/icons/logos/la.svg" alt="" data-page-popover="8">
+                                            <img src="https://via.placeholder.com/400x400" data-demo-src="../assets/img/vector/icons/logos/la.svg" alt="" data-page-popover="8">
                                             <div class="flex-block-meta">
                                                 <span>Lives in <a>Los Angeles, CA</a></span>
                                                 <a class="action-link">Edit your location</a>
@@ -120,7 +120,7 @@
                                         </div>
                                         <!-- Family block -->
                                         <div class="flex-block">
-                                            <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/dan.jpg" data-user-popover="1" alt="">
+                                            <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/dan.jpg" data-user-popover="1" alt="">
                                             <div class="flex-block-meta">
                                                 <span>Married to <a>Dan Walker</a></span>
                                                 <a class="action-link">Edit your situation</a>
@@ -155,9 +155,9 @@
                                     <!--Timeline Item-->
                                     <div class="timeline-item">
                                         <div class="image-container">
-                                            <img src="https://via.placeholder.com/800x600" alt="" data-demo-src="assets/img/demo/unsplash/popovers/pages/drop.jpg">
+                                            <img src="https://via.placeholder.com/800x600" alt="" data-demo-src="../assets/img/demo/unsplash/popovers/pages/drop.jpg">
                                             <div class="logo-container">
-                                                <img src="https://via.placeholder.com/150x150" alt="" data-demo-src="assets/img/vector/icons/logos/drop.svg" data-page-popover="10">
+                                                <img src="https://via.placeholder.com/150x150" alt="" data-demo-src="../assets/img/vector/icons/logos/drop.svg" data-page-popover="10">
                                             </div>
                                         </div>
                                         <h3>Internship</h3>
@@ -172,9 +172,9 @@
                                     <!--Timeline Item-->
                                     <div class="timeline-item">
                                         <div class="image-container">
-                                            <img src="https://via.placeholder.com/800x600" alt="" data-demo-src="assets/img/demo/unsplash/popovers/pages/quick-fashion.jpg">
+                                            <img src="https://via.placeholder.com/800x600" alt="" data-demo-src="../assets/img/demo/unsplash/popovers/pages/quick-fashion.jpg">
                                             <div class="logo-container">
-                                                <img src="https://via.placeholder.com/150x150" alt="" data-demo-src="assets/img/vector/icons/logos/quick-fashion.svg" data-page-popover="11">
+                                                <img src="https://via.placeholder.com/150x150" alt="" data-demo-src="../assets/img/vector/icons/logos/quick-fashion.svg" data-page-popover="11">
                                             </div>
                                         </div>
                                         <h3>Internship</h3>
@@ -189,9 +189,9 @@
                                     <!--Timeline Item-->
                                     <div class="timeline-item">
                                         <div class="image-container">
-                                            <img src="https://via.placeholder.com/800x600" alt="" data-demo-src="assets/img/demo/unsplash/popovers/pages/brent.jpg">
+                                            <img src="https://via.placeholder.com/800x600" alt="" data-demo-src="../assets/img/demo/unsplash/popovers/pages/brent.jpg">
                                             <div class="logo-container">
-                                                <img src="https://via.placeholder.com/150x150" alt="" data-demo-src="assets/img/vector/icons/logos/brent.svg" data-page-popover="6">
+                                                <img src="https://via.placeholder.com/150x150" alt="" data-demo-src="../assets/img/vector/icons/logos/brent.svg" data-page-popover="6">
                                             </div>
                                         </div>
                                         <h3>Bachelor Degree</h3>
@@ -214,9 +214,9 @@
                                     <!--Timeline Item-->
                                     <div class="timeline-item">
                                         <div class="image-container">
-                                            <img src="https://via.placeholder.com/800x600" alt="" data-demo-src="assets/img/demo/unsplash/popovers/pages/slicer.jpg">
+                                            <img src="https://via.placeholder.com/800x600" alt="" data-demo-src="../assets/img/demo/unsplash/popovers/pages/slicer.jpg">
                                             <div class="logo-container">
-                                                <img src="https://via.placeholder.com/150x150" alt="" data-demo-src="assets/img/vector/icons/logos/slicer.svg" data-page-popover="4">
+                                                <img src="https://via.placeholder.com/150x150" alt="" data-demo-src="../assets/img/vector/icons/logos/slicer.svg" data-page-popover="4">
                                             </div>
                                         </div>
                                         <h3>Artistic Director</h3>
@@ -231,9 +231,9 @@
                                     <!--Timeline Item-->
                                     <div class="timeline-item">
                                         <div class="image-container">
-                                            <img src="https://via.placeholder.com/800x600" alt="" data-demo-src="assets/img/demo/unsplash/popovers/pages/cssninja.png">
+                                            <img src="https://via.placeholder.com/800x600" alt="" data-demo-src="../assets/img/demo/unsplash/popovers/pages/cssninja.png">
                                             <div class="logo-container">
-                                                <img src="https://via.placeholder.com/150x150" alt="" data-demo-src="assets/img/avatars/hanzo.svg" data-page-popover="5">
+                                                <img src="https://via.placeholder.com/150x150" alt="" data-demo-src="../assets/img/avatars/hanzo.svg" data-page-popover="5">
                                             </div>
                                         </div>
                                         <h3>Artistic Director</h3>
@@ -248,9 +248,9 @@
                                     <!--Timeline Item-->
                                     <div class="timeline-item">
                                         <div class="image-container">
-                                            <img src="https://via.placeholder.com/800x600" alt="" data-demo-src="assets/img/demo/unsplash/popovers/pages/lipflow.jpg">
+                                            <img src="https://via.placeholder.com/800x600" alt="" data-demo-src="../assets/img/demo/unsplash/popovers/pages/lipflow.jpg">
                                             <div class="logo-container">
-                                                <img src="https://via.placeholder.com/150x150" alt="" data-demo-src="assets/img/vector/icons/logos/lipflow.svg" data-page-popover="9">
+                                                <img src="https://via.placeholder.com/150x150" alt="" data-demo-src="../assets/img/vector/icons/logos/lipflow.svg" data-page-popover="9">
                                             </div>
                                         </div>
                                         <h3>Head of Sales</h3>
@@ -265,9 +265,9 @@
                                     <!--Timeline Item-->
                                     <div class="timeline-item">
                                         <div class="image-container">
-                                            <img src="https://via.placeholder.com/800x600" alt="" data-demo-src="assets/img/demo/unsplash/popovers/pages/drop.jpg">
+                                            <img src="https://via.placeholder.com/800x600" alt="" data-demo-src="../assets/img/demo/unsplash/popovers/pages/drop.jpg">
                                             <div class="logo-container">
-                                                <img src="https://via.placeholder.com/150x150" alt="" data-demo-src="assets/img/vector/icons/logos/drop.svg" data-page-popover="10">
+                                                <img src="https://via.placeholder.com/150x150" alt="" data-demo-src="../assets/img/vector/icons/logos/drop.svg" data-page-popover="10">
                                             </div>
                                         </div>
                                         <h3>Manager</h3>
@@ -282,9 +282,9 @@
                                     <!--Timeline Item-->
                                     <div class="timeline-item">
                                         <div class="image-container">
-                                            <img src="https://via.placeholder.com/800x600" alt="" data-demo-src="assets/img/demo/unsplash/popovers/pages/imdb.jpg">
+                                            <img src="https://via.placeholder.com/800x600" alt="" data-demo-src="../assets/img/demo/unsplash/popovers/pages/imdb.jpg">
                                             <div class="logo-container">
-                                                <img src="https://via.placeholder.com/150x150" alt="" data-demo-src="assets/img/vector/icons/logos/metamovies.svg" data-page-popover="9">
+                                                <img src="https://via.placeholder.com/150x150" alt="" data-demo-src="../assets/img/vector/icons/logos/metamovies.svg" data-page-popover="9">
                                             </div>
                                         </div>
                                         <h3>Intern</h3>
@@ -299,9 +299,9 @@
                                     <!--Timeline Item-->
                                     <div class="timeline-item">
                                         <div class="image-container">
-                                            <img src="https://via.placeholder.com/800x600" alt="" data-demo-src="assets/img/demo/unsplash/popovers/pages/quick-fashion.jpg">
+                                            <img src="https://via.placeholder.com/800x600" alt="" data-demo-src="../assets/img/demo/unsplash/popovers/pages/quick-fashion.jpg">
                                             <div class="logo-container">
-                                                <img src="https://via.placeholder.com/150x150" alt="" data-demo-src="assets/img/vector/icons/logos/quick-fashion.svg" data-page-popover="9">
+                                                <img src="https://via.placeholder.com/150x150" alt="" data-demo-src="../assets/img/vector/icons/logos/quick-fashion.svg" data-page-popover="9">
                                             </div>
                                         </div>
                                         <h3>Intern</h3>
@@ -316,9 +316,9 @@
                                     <!--Timeline Item-->
                                     <div class="timeline-item">
                                         <div class="image-container">
-                                            <img src="https://via.placeholder.com/800x600" alt="" data-demo-src="assets/img/demo/unsplash/popovers/pages/nuclearjs.jpg">
+                                            <img src="https://via.placeholder.com/800x600" alt="" data-demo-src="../assets/img/demo/unsplash/popovers/pages/nuclearjs.jpg">
                                             <div class="logo-container">
-                                                <img src="https://via.placeholder.com/150x150" alt="" data-demo-src="assets/img/vector/icons/logos/nuclearjs.svg" data-page-popover="9">
+                                                <img src="https://via.placeholder.com/150x150" alt="" data-demo-src="../assets/img/vector/icons/logos/nuclearjs.svg" data-page-popover="9">
                                             </div>
                                         </div>
                                         <h3>Intern</h3>
@@ -338,7 +338,7 @@
                             <div id="personal-content" class="content-section">
                                 <!-- Friends about card -->
                                 <?php
-                                include("../views/pages/profile/about/photos-about-card.php");
+                                include("../views/pages/profile/about/friends-about-card.php");
                                 ?>
                                 <!-- Photos about card -->
                                 <?php
@@ -410,7 +410,7 @@
                 <div class="card-body has-text-centered">
 
                     <div class="image-wrap">
-                        <img src="assets/img/vector/logo/friendkit.svg" alt="">
+                        <img src="../assets/img/vector/logo/friendkit.svg" alt="">
                     </div>
 
                     <h3>That's all folks!</h3>
@@ -424,33 +424,32 @@
         </div>
     </div>
     <!-- Concatenated js plugins and jQuery -->
-    <script src="assets/js/app.js"></script>
-    <script src="https://js.stripe.com/v3/"></script>
-    <script src="assets/data/tipuedrop_content.js"></script>
+    <script src="../assets/js/app.js"></script>
+    <script src="../assets/data/tipuedrop_content.js"></script>
 
     <!-- Core js -->
-    <script src="assets/js/global.js"></script>
+    <script src="../assets/js/global.js"></script>
 
     <!-- Navigation options js -->
-    <script src="assets/js/navbar-v1.js"></script>
-    <script src="assets/js/navbar-v2.js"></script>
-    <script src="assets/js/navbar-mobile.js"></script>
-    <script src="assets/js/navbar-options.js"></script>
-    <script src="assets/js/sidebar-v1.js"></script>
+    <script src="../assets/js/navbar-v1.js"></script>
+    <script src="../assets/js/navbar-v2.js"></script>
+    <script src="../assets/js/navbar-mobile.js"></script>
+    <script src="../assets/js/navbar-options.js"></script>
+    <script src="../assets/js/sidebar-v1.js"></script>
 
     <!-- Core instance js -->
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/chat.js"></script>
-    <script src="assets/js/touch.js"></script>
-    <script src="assets/js/tour.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/chat.js"></script>
+    <script src="../assets/js/touch.js"></script>
+    <script src="../assets/js/tour.js"></script>
 
     <!-- Components js -->
-    <script src="assets/js/explorer.js"></script>
-    <script src="assets/js/widgets.js"></script>
-    <script src="assets/js/modal-uploader.js"></script>
-    <script src="assets/js/popovers-users.js"></script>
-    <script src="assets/js/popovers-pages.js"></script>
-    <script src="assets/js/lightbox.js"></script>
+    <script src="../assets/js/explorer.js"></script>
+    <script src="../assets/js/widgets.js"></script>
+    <script src="../assets/js/modal-uploader.js"></script>
+    <script src="../assets/js/popovers-users.js"></script>
+    <script src="../assets/js/popovers-pages.js"></script>
+    <script src="../assets/js/lightbox.js"></script>
 
     <!-- Landing page js -->
 
@@ -459,7 +458,7 @@
     <!-- Feed pages js -->
 
     <!-- profile js -->
-    <script src="assets/js/profile.js"></script>
+    <script src="../assets/js/profile.js"></script>
 
     <!-- stories js -->
 

@@ -19,7 +19,7 @@
                         <h4>Feed</h4>
                     </a>
                     <!--item-->
-                    <a href="/friends-list.html" class="explore-item">
+                    <a href="<?= $base_url ?>user/friends-list" class="explore-item">
                         <img src="<?= $base_url ?>assets/img/icons/explore/friends.svg" alt="">
                         <h4>Friends</h4>
                     </a>
@@ -39,12 +39,12 @@
                         <h4>Commerce</h4>
                     </a> -->
                     <!--item-->
-                    <a href="<?= $base_url ?>groups.html" class="explore-item">
+                    <a href="<?= $base_url ?>user/groups" class="explore-item">
                         <img src="<?= $base_url ?>assets/img/icons/explore/house.svg" alt="">
                         <h4>Groups</h4>
                     </a>
                     <!--item-->
-                    <a href="<?= $base_url ?>stories.html" class="explore-item">
+                    <a href="<?= $base_url ?>user/stories" class="explore-item">
                         <img src="<?= $base_url ?>assets/img/icons/explore/chrono.svg" alt="">
                         <h4>Stories</h4>
                     </a>
@@ -69,7 +69,7 @@
                         <h4>Envato</h4>
                     </a> -->
                     <!--item-->
-                    <a href="<?= $base_url ?>events.html" class="explore-item">
+                    <a href="<?= $base_url ?>user/events" class="explore-item">
                         <img src="<?= $base_url ?>assets/img/icons/explore/calendar.svg" alt="">
                         <h4>Events</h4>
                     </a>
@@ -84,7 +84,7 @@
                         <h4>Elements</h4>
                     </a> -->
                     <!--item-->
-                    <a href="<?= $base_url ?>/settings.html" class="explore-item">
+                    <a href="<?= $base_url ?>user/settings.html" class="explore-item">
                         <img src="<?= $base_url ?>assets/img/icons/explore/settings.svg" alt="">
                         <h4>Settings</h4>
                     </a>

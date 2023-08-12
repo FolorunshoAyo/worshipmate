@@ -68,9 +68,9 @@
                         <i data-feather="heart"></i>
                     </div>
                 </div>
-                <img src="https://via.placeholder.com/800x600" data-demo-src="assets/img/demo/profile/about/videos/2.jpg" alt="">
+                <img src="https://via.placeholder.com/800x600" data-demo-src="../assets/img/demo/profile/about/videos/2.jpg" alt="">
                 <div class="video-button">
-                    <img src="assets/img/icons/video/play.svg" alt="">
+                    <img src="../assets/img/icons/video/play.svg" alt="">
                 </div>
             </div>
             <!-- Video item -->
@@ -83,9 +83,9 @@
                         <i data-feather="heart"></i>
                     </div>
                 </div>
-                <img src="https://via.placeholder.com/800x600" data-demo-src="assets/img/demo/profile/about/videos/3.jpg" alt="">
+                <img src="https://via.placeholder.com/800x600" data-demo-src="../assets/img/demo/profile/about/videos/3.jpg" alt="">
                 <div class="video-button">
-                    <img src="assets/img/icons/video/play.svg" alt="">
+                    <img src="../assets/img/icons/video/play.svg" alt="">
                 </div>
             </div>
             <!-- Video item -->
@@ -98,9 +98,9 @@
                         <i data-feather="heart"></i>
                     </div>
                 </div>
-                <img src="https://via.placeholder.com/800x600" data-demo-src="assets/img/demo/profile/about/videos/4.jpg" alt="">
+                <img src="https://via.placeholder.com/800x600" data-demo-src="../assets/img/demo/profile/about/videos/4.jpg" alt="">
                 <div class="video-button">
-                    <img src="assets/img/icons/video/play.svg" alt="">
+                    <img src="../assets/img/icons/video/play.svg" alt="">
                 </div>
             </div>
             <!-- Video item -->
@@ -113,9 +113,9 @@
                         <i data-feather="heart"></i>
                     </div>
                 </div>
-                <img src="https://via.placeholder.com/800x600" data-demo-src="assets/img/demo/profile/about/videos/5.jpg" alt="">
+                <img src="https://via.placeholder.com/800x600" data-demo-src="../assets/img/demo/profile/about/videos/5.jpg" alt="">
                 <div class="video-button">
-                    <img src="assets/img/icons/video/play.svg" alt="">
+                    <img src="../assets/img/icons/video/play.svg" alt="">
                 </div>
             </div>
             <!-- Video item -->
@@ -128,9 +128,9 @@
                         <i data-feather="heart"></i>
                     </div>
                 </div>
-                <img src="https://via.placeholder.com/800x600" data-demo-src="assets/img/demo/profile/about/videos/6.jpg" alt="">
+                <img src="https://via.placeholder.com/800x600" data-demo-src="../assets/img/demo/profile/about/videos/6.jpg" alt="">
                 <div class="video-button">
-                    <img src="assets/img/icons/video/play.svg" alt="">
+                    <img src="../assets/img/icons/video/play.svg" alt="">
                 </div>
             </div>
         </div>

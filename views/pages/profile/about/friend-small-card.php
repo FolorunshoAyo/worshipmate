@@ -1,6 +1,6 @@
 <div class="column is-6">
     <div class="friend-small-card">
-        <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/nelly.png" data-user-popover="9" alt="">
+        <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/nelly.png" data-user-popover="9" alt="">
         <div class="meta">
             <span>Nelly Schwartz</span>
             <span>182 Friends</span>

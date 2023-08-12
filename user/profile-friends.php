@@ -15,7 +15,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <title> Worshipmate | Profile Friends</title>
-    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png" />
 
     <?php
     include("../views/embeds/head-embed.php");
@@ -127,7 +127,7 @@
                                         <div class="chat-button">
                                             <i data-feather="message-circle"></i>
                                         </div>
-                                        <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/dan.jpg" data-user-popover="1" alt="">
+                                        <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/dan.jpg" data-user-popover="1" alt="">
                                     </div>
                                     <h3>Dan Walker</h3>
                                     <p>From New York</p>
@@ -141,7 +141,7 @@
                                         <div class="chat-button">
                                             <i data-feather="message-circle"></i>
                                         </div>
-                                        <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/stella.jpg" data-user-popover="2" alt="">
+                                        <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/stella.jpg" data-user-popover="2" alt="">
                                     </div>
                                     <h3>Stella Bergmann</h3>
                                     <p>From Berlin</p>
@@ -155,7 +155,7 @@
                                         <div class="chat-button">
                                             <i data-feather="message-circle"></i>
                                         </div>
-                                        <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/david.jpg" data-user-popover="4" alt="">
+                                        <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/david.jpg" data-user-popover="4" alt="">
                                     </div>
                                     <h3>David Kim</h3>
                                     <p>From Chicago</p>
@@ -169,7 +169,7 @@
                                         <div class="chat-button">
                                             <i data-feather="message-circle"></i>
                                         </div>
-                                        <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/daniel.jpg" data-user-popover="3" alt="">
+                                        <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/daniel.jpg" data-user-popover="3" alt="">
                                     </div>
                                     <h3>Daniel Wellington</h3>
                                     <p>From London</p>
@@ -183,7 +183,7 @@
                                         <div class="chat-button">
                                             <i data-feather="message-circle"></i>
                                         </div>
-                                        <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/nelly.png" data-user-popover="9" alt="">
+                                        <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/nelly.png" data-user-popover="9" alt="">
                                     </div>
                                     <h3>Nelly Schwartz</h3>
                                     <p>From Melbourne</p>
@@ -197,7 +197,7 @@
                                         <div class="chat-button">
                                             <i data-feather="message-circle"></i>
                                         </div>
-                                        <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/rolf.jpg" data-user-popover="13" alt="">
+                                        <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/rolf.jpg" data-user-popover="13" alt="">
                                     </div>
                                     <h3>Rolf Krupp</h3>
                                     <p>From Berlin</p>
@@ -211,7 +211,7 @@
                                         <div class="chat-button">
                                             <i data-feather="message-circle"></i>
                                         </div>
-                                        <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/brian.jpg" data-user-popover="19" alt="">
+                                        <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/brian.jpg" data-user-popover="19" alt="">
                                     </div>
                                     <h3>Brian Stevenson</h3>
                                     <p>From San Diego</p>
@@ -225,7 +225,7 @@
                                         <div class="chat-button">
                                             <i data-feather="message-circle"></i>
                                         </div>
-                                        <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/bobby.jpg" data-user-popover="8" alt="">
+                                        <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/bobby.jpg" data-user-popover="8" alt="">
                                     </div>
                                     <h3>Bobby Brown</h3>
                                     <p>From Paris</p>
@@ -239,7 +239,7 @@
                                         <div class="chat-button">
                                             <i data-feather="message-circle"></i>
                                         </div>
-                                        <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/azzouz.jpg" data-user-popover="20" alt="">
+                                        <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/azzouz.jpg" data-user-popover="20" alt="">
                                     </div>
                                     <h3>Azzouz El Paytoun</h3>
                                     <p>From Montreal</p>
@@ -253,7 +253,7 @@
                                         <div class="chat-button">
                                             <i data-feather="message-circle"></i>
                                         </div>
-                                        <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/elise.jpg" data-user-popover="6" alt="">
+                                        <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/elise.jpg" data-user-popover="6" alt="">
                                     </div>
                                     <h3>Elise Walker</h3>
                                     <p>From London</p>
@@ -267,7 +267,7 @@
                                         <div class="chat-button">
                                             <i data-feather="message-circle"></i>
                                         </div>
-                                        <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/aline.jpg" data-user-popover="16" alt="">
+                                        <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/aline.jpg" data-user-popover="16" alt="">
                                     </div>
                                     <h3>Aline Cambell</h3>
                                     <p>From Seattle</p>
@@ -281,7 +281,7 @@
                                         <div class="chat-button">
                                             <i data-feather="message-circle"></i>
                                         </div>
-                                        <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/mike.jpg" data-user-popover="12" alt="">
+                                        <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/mike.jpg" data-user-popover="12" alt="">
                                     </div>
                                     <h3>Mike Lasalle</h3>
                                     <p>From Toronto</p>
@@ -295,7 +295,7 @@
                                         <div class="chat-button">
                                             <i data-feather="message-circle"></i>
                                         </div>
-                                        <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/michael.jpg" data-user-popover="17" alt="">
+                                        <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/michael.jpg" data-user-popover="17" alt="">
                                     </div>
                                     <h3>Mike Donovan</h3>
                                     <p>From San Francisco</p>
@@ -309,7 +309,7 @@
                                         <div class="chat-button">
                                             <i data-feather="message-circle"></i>
                                         </div>
-                                        <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/lana.jpeg" data-user-popover="10" alt="">
+                                        <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/lana.jpeg" data-user-popover="10" alt="">
                                     </div>
                                     <h3>Lana Henrikssen</h3>
                                     <p>From Helsinki</p>
@@ -323,7 +323,7 @@
                                         <div class="chat-button">
                                             <i data-feather="message-circle"></i>
                                         </div>
-                                        <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/leana.jpg" data-user-popover="15" alt="">
+                                        <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/leana.jpg" data-user-popover="15" alt="">
                                     </div>
                                     <h3>Leana Marks</h3>
                                     <p>From Nashville</p>
@@ -337,7 +337,7 @@
                                         <div class="chat-button">
                                             <i data-feather="message-circle"></i>
                                         </div>
-                                        <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/ken.jpg" data-user-popover="14" alt="">
+                                        <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/ken.jpg" data-user-popover="14" alt="">
                                     </div>
                                     <h3>Ken Rogers</h3>
                                     <p>From Chicago</p>
@@ -351,7 +351,7 @@
                                         <div class="chat-button">
                                             <i data-feather="message-circle"></i>
                                         </div>
-                                        <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/gaelle.jpeg" data-user-popover="11" alt="">
+                                        <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/gaelle.jpeg" data-user-popover="11" alt="">
                                     </div>
                                     <h3>Gaelle Morris</h3>
                                     <p>From Lyon</p>
@@ -365,7 +365,7 @@
                                         <div class="chat-button">
                                             <i data-feather="message-circle"></i>
                                         </div>
-                                        <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/edward.jpeg" data-user-popover="5" alt="">
+                                        <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/edward.jpeg" data-user-popover="5" alt="">
                                     </div>
                                     <h3>Edward Mayers</h3>
                                     <p>From Dublin</p>
@@ -379,7 +379,7 @@
                                         <div class="chat-button">
                                             <i data-feather="message-circle"></i>
                                         </div>
-                                        <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/george.jpg" data-user-popover="18" alt="">
+                                        <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/george.jpg" data-user-popover="18" alt="">
                                     </div>
                                     <h3>George A. Romero</h3>
                                     <p>From Los Angeles</p>
@@ -446,7 +446,7 @@
                 <div class="card-body has-text-centered">
 
                     <div class="image-wrap">
-                        <img src="assets/img/vector/logo/friendkit.svg" alt="">
+                        <img src="../assets/img/vector/logo/friendkit.svg" alt="">
                     </div>
 
                     <h3>That's all folks!</h3>
@@ -460,32 +460,32 @@
         </div>
     </div>
     <!-- Concatenated js plugins and jQuery -->
-    <script src="assets/js/app.js"></script>
-    <script src="assets/data/tipuedrop_content.js"></script>
+    <script src="../assets/js/app.js"></script>
+    <script src="../assets/data/tipuedrop_content.js"></script>
 
     <!-- Core js -->
-    <script src="assets/js/global.js"></script>
+    <script src="../assets/js/global.js"></script>
 
     <!-- Navigation options js -->
-    <script src="assets/js/navbar-v1.js"></script>
-    <script src="assets/js/navbar-v2.js"></script>
-    <script src="assets/js/navbar-mobile.js"></script>
-    <script src="assets/js/navbar-options.js"></script>
-    <script src="assets/js/sidebar-v1.js"></script>
+    <script src="../assets/js/navbar-v1.js"></script>
+    <script src="../assets/js/navbar-v2.js"></script>
+    <script src="../assets/js/navbar-mobile.js"></script>
+    <script src="../assets/js/navbar-options.js"></script>
+    <script src="../assets/js/sidebar-v1.js"></script>
 
     <!-- Core instance js -->
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/chat.js"></script>
-    <script src="assets/js/touch.js"></script>
-    <script src="assets/js/tour.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/chat.js"></script>
+    <script src="../assets/js/touch.js"></script>
+    <script src="../assets/js/tour.js"></script>
 
     <!-- Components js -->
-    <script src="assets/js/explorer.js"></script>
-    <script src="assets/js/widgets.js"></script>
-    <script src="assets/js/modal-uploader.js"></script>
-    <script src="assets/js/popovers-users.js"></script>
-    <script src="assets/js/popovers-pages.js"></script>
-    <script src="assets/js/lightbox.js"></script>
+    <script src="../assets/js/explorer.js"></script>
+    <script src="../assets/js/widgets.js"></script>
+    <script src="../assets/js/modal-uploader.js"></script>
+    <script src="../assets/js/popovers-users.js"></script>
+    <script src="../assets/js/popovers-pages.js"></script>
+    <script src="../assets/js/lightbox.js"></script>
 
     <!-- Landing page js -->
 

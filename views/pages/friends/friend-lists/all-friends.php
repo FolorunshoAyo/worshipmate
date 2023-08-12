@@ -4,8 +4,8 @@
         <i data-feather="star"></i>
     </div>
     <div class="img-container">
-        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/dan.jpg" alt="">
-        <img class="country" src="assets/img/icons/flags/united-states-of-america.svg" alt="">
+        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/dan.jpg" alt="">
+        <img class="country" src="../assets/img/icons/flags/us.svg" alt="">
     </div>
     <div class="friend-info">
         <h3>Dan Walker</h3>
@@ -38,8 +38,8 @@
         <i data-feather="star"></i>
     </div>
     <div class="img-container">
-        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/david.jpg" alt="">
-        <img class="country" src="assets/img/icons/flags/united-states-of-america.svg" alt="">
+        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/david.jpg" alt="">
+        <img class="country" src="../assets/img/icons/flags/us.svg" alt="">
     </div>
     <div class="friend-info">
         <h3>David Kim</h3>
@@ -72,8 +72,8 @@
         <i data-feather="star"></i>
     </div>
     <div class="img-container">
-        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/bob.png" alt="">
-        <img class="country" src="assets/img/icons/flags/united-states-of-america.svg" alt="">
+        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/bob.png" alt="">
+        <img class="country" src="../assets/img/icons/flags/us.svg" alt="">
     </div>
     <div class="friend-info">
         <h3>Bob Barker</h3>
@@ -106,8 +106,8 @@
         <i data-feather="star"></i>
     </div>
     <div class="img-container">
-        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/lana.jpeg" alt="">
-        <img class="country" src="assets/img/icons/flags/finland.svg" alt="">
+        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/lana.jpeg" alt="">
+        <img class="country" src="../assets/img/icons/flags/fi.svg" alt="">
     </div>
     <div class="friend-info">
         <h3>Lana Henrikssen</h3>
@@ -140,8 +140,8 @@
         <i data-feather="star"></i>
     </div>
     <div class="img-container">
-        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/brian.jpg" alt="">
-        <img class="country" src="assets/img/icons/flags/united-states-of-america.svg" alt="">
+        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/brian.jpg" alt="">
+        <img class="country" src="../assets/img/icons/flags/us.svg" alt="">
     </div>
     <div class="friend-info">
         <h3>Brian Stevenson</h3>
@@ -174,8 +174,8 @@
         <i data-feather="star"></i>
     </div>
     <div class="img-container">
-        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/daniel.jpg" alt="">
-        <img class="country" src="assets/img/icons/flags/united-kingdom.svg" alt="">
+        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/daniel.jpg" alt="">
+        <img class="country" src="../assets/img/icons/flags/gb.svg" alt="">
     </div>
     <div class="friend-info">
         <h3>Daniel Wellington</h3>
@@ -208,8 +208,8 @@
         <i data-feather="star"></i>
     </div>
     <div class="img-container">
-        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/stella.jpg" alt="">
-        <img class="country" src="assets/img/icons/flags/germany.svg" alt="">
+        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/stella.jpg" alt="">
+        <img class="country" src="../assets/img/icons/flags/de.svg" alt="">
     </div>
     <div class="friend-info">
         <h3>Stella Bergmann</h3>
@@ -242,8 +242,8 @@
         <i data-feather="star"></i>
     </div>
     <div class="img-container">
-        <img class="avatar is-placeholder" src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/placeholder-f.jpg" alt="">
-        <img class="country" src="assets/img/icons/flags/united-states-of-america.svg" alt="">
+        <img class="avatar is-placeholder" src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/placeholder-f.jpg" alt="">
+        <img class="country" src="../assets/img/icons/flags/us.svg" alt="">
     </div>
     <div class="friend-info">
         <h3>Tina Holmes</h3>
@@ -276,8 +276,8 @@
         <i data-feather="star"></i>
     </div>
     <div class="img-container">
-        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/mike.jpg" alt="">
-        <img class="country" src="assets/img/icons/flags/canada.svg" alt="">
+        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/mike.jpg" alt="">
+        <img class="country" src="../assets/img/icons/flags/ca.svg" alt="">
     </div>
     <div class="friend-info">
         <h3>Mike Lasalle</h3>
@@ -310,8 +310,8 @@
         <i data-feather="star"></i>
     </div>
     <div class="img-container">
-        <img class="avatar is-placeholder" src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/placeholder-m.jpg" alt="">
-        <img class="country" src="assets/img/icons/flags/united-states-of-america.svg" alt="">
+        <img class="avatar is-placeholder" src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/placeholder-m.jpg" alt="">
+        <img class="country" src="../assets/img/icons/flags/us.svg" alt="">
     </div>
     <div class="friend-info">
         <h3>Garry Carter</h3>
@@ -344,8 +344,8 @@
         <i data-feather="star"></i>
     </div>
     <div class="img-container">
-        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/edward.jpeg" alt="">
-        <img class="country" src="assets/img/icons/flags/ireland.svg" alt="">
+        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/edward.jpeg" alt="">
+        <img class="country" src="../assets/img/icons/flags/ie.svg" alt="">
     </div>
     <div class="friend-info">
         <h3>Edward Mayers</h3>
@@ -378,8 +378,8 @@
         <i data-feather="star"></i>
     </div>
     <div class="img-container">
-        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/nelly.png" alt="">
-        <img class="country" src="assets/img/icons/flags/australia.svg" alt="">
+        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/nelly.png" alt="">
+        <img class="country" src="../assets/img/icons/flags/au.svg" alt="">
     </div>
     <div class="friend-info">
         <h3>Nelly Schwartz</h3>
@@ -412,8 +412,8 @@
         <i data-feather="star"></i>
     </div>
     <div class="img-container">
-        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/rolf.jpg" alt="">
-        <img class="country" src="assets/img/icons/flags/germany.svg" alt="">
+        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/rolf.jpg" alt="">
+        <img class="country" src="../assets/img/icons/flags/de.svg" alt="">
     </div>
     <div class="friend-info">
         <h3>Rolf Krupp</h3>
@@ -446,8 +446,8 @@
         <i data-feather="star"></i>
     </div>
     <div class="img-container">
-        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/gaelle.jpeg" alt="">
-        <img class="country" src="assets/img/icons/flags/france.svg" alt="">
+        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/gaelle.jpeg" alt="">
+        <img class="country" src="../assets/img/icons/flags/fr.svg" alt="">
     </div>
     <div class="friend-info">
         <h3>Gaelle Morris</h3>
@@ -480,8 +480,8 @@
         <i data-feather="star"></i>
     </div>
     <div class="img-container">
-        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/elise.jpg" alt="">
-        <img class="country" src="assets/img/icons/flags/united-kingdom.svg" alt="">
+        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/elise.jpg" alt="">
+        <img class="country" src="../assets/img/icons/flags/gb.svg" alt="">
     </div>
     <div class="friend-info">
         <h3>Elise Walker</h3>
@@ -514,8 +514,8 @@
         <i data-feather="star"></i>
     </div>
     <div class="img-container">
-        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/greg.png" alt="">
-        <img class="country" src="assets/img/icons/flags/south-africa.svg" alt="">
+        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/greg.png" alt="">
+        <img class="country" src="../assets/img/icons/flags/za.svg" alt="">
     </div>
     <div class="friend-info">
         <h3>Greg Patel</h3>
@@ -548,8 +548,8 @@
         <i data-feather="star"></i>
     </div>
     <div class="img-container">
-        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/wayne.png" alt="">
-        <img class="country" src="assets/img/icons/flags/united-states-of-america.svg" alt="">
+        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/wayne.png" alt="">
+        <img class="country" src="../assets/img/icons/flags/us.svg" alt="">
     </div>
     <div class="friend-info">
         <h3>Wayne Krascinsky</h3>
@@ -582,8 +582,8 @@
         <i data-feather="star"></i>
     </div>
     <div class="img-container">
-        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/milly.jpg" alt="">
-        <img class="country" src="assets/img/icons/flags/italy.svg" alt="">
+        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/milly.jpg" alt="">
+        <img class="country" src="../assets/img/icons/flags/it.svg" alt="">
     </div>
     <div class="friend-info">
         <h3>Milly Augustine</h3>
@@ -616,8 +616,8 @@
         <i data-feather="star"></i>
     </div>
     <div class="img-container">
-        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/chems.jpg" alt="">
-        <img class="country" src="assets/img/icons/flags/switzerland.svg" alt="">
+        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/chems.jpg" alt="">
+        <img class="country" src="../assets/img/icons/flags/ch.svg" alt="">
     </div>
     <div class="friend-info">
         <h3>Frida Svenson</h3>
@@ -650,8 +650,8 @@
         <i data-feather="star"></i>
     </div>
     <div class="img-container">
-        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/nikos.png" alt="">
-        <img class="country" src="assets/img/icons/flags/greece.svg" alt="">
+        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/nikos.png" alt="">
+        <img class="country" src="../assets/img/icons/flags/gr.svg" alt="">
     </div>
     <div class="friend-info">
         <h3>Nikos Markopoulos</h3>
@@ -684,8 +684,8 @@
         <i data-feather="star"></i>
     </div>
     <div class="img-container">
-        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/amadou.jpg" alt="">
-        <img class="country" src="assets/img/icons/flags/senegal.svg" alt="">
+        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/amadou.jpg" alt="">
+        <img class="country" src="../assets/img/icons/flags/sn.svg" alt="">
     </div>
     <div class="friend-info">
         <h3>Amadou Diop</h3>
@@ -718,8 +718,8 @@
         <i data-feather="star"></i>
     </div>
     <div class="img-container">
-        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/roxane.jpg" alt="">
-        <img class="country" src="assets/img/icons/flags/france.svg" alt="">
+        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/roxane.jpg" alt="">
+        <img class="country" src="../assets/img/icons/flags/fr.svg" alt="">
     </div>
     <div class="friend-info">
         <h3>Roxane Blanchart</h3>
@@ -752,8 +752,8 @@
         <i data-feather="star"></i>
     </div>
     <div class="img-container">
-        <img class="avatar is-placeholder" src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/placeholder-m.jpg" alt="">
-        <img class="country" src="assets/img/icons/flags/canada.svg" alt="">
+        <img class="avatar is-placeholder" src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/placeholder-m.jpg" alt="">
+        <img class="country" src="../assets/img/icons/flags/ca.svg" alt="">
     </div>
     <div class="friend-info">
         <h3>John Stanley</h3>
@@ -786,8 +786,8 @@
         <i data-feather="star"></i>
     </div>
     <div class="img-container">
-        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/luis.png" alt="">
-        <img class="country" src="assets/img/icons/flags/spain.svg" alt="">
+        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/luis.png" alt="">
+        <img class="country" src="../assets/img/icons/flags/es.svg" alt="">
     </div>
     <div class="friend-info">
         <h3>Luis Carrillo Estrella</h3>
@@ -820,8 +820,8 @@
         <i data-feather="star"></i>
     </div>
     <div class="img-container">
-        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/hisashi.jpg" alt="">
-        <img class="country" src="assets/img/icons/flags/japan.svg" alt="">
+        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/hisashi.jpg" alt="">
+        <img class="country" src="../assets/img/icons/flags/jp.svg" alt="">
     </div>
     <div class="friend-info">
         <h3>Hisashi Yokida</h3>
@@ -854,8 +854,8 @@
         <i data-feather="star"></i>
     </div>
     <div class="img-container">
-        <img class="avatar is-placeholder" src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/placeholder-f.jpg" alt="">
-        <img class="country" src="assets/img/icons/flags/united-states-of-america.svg" alt="">
+        <img class="avatar is-placeholder" src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/placeholder-f.jpg" alt="">
+        <img class="country" src="../assets/img/icons/flags/us.svg" alt="">
     </div>
     <div class="friend-info">
         <h3>Emily Statterfield</h3>
@@ -888,8 +888,8 @@
         <i data-feather="star"></i>
     </div>
     <div class="img-container">
-        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/azzouz.jpg" alt="">
-        <img class="country" src="assets/img/icons/flags/france.svg" alt="">
+        <img class="avatar" src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/azzouz.jpg" alt="">
+        <img class="country" src="../assets/img/icons/flags/fr.svg" alt="">
     </div>
     <div class="friend-info">
         <h3>Azzouz El Paytoun</h3>

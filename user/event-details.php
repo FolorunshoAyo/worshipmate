@@ -16,7 +16,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <title> Worshipmate | Event</title>
-    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png" />
 
     <?php
     include("../views/embeds/head-embed.php");
@@ -44,7 +44,7 @@
 
             <!--Cover-->
             <div class="event-cover">
-                <img class="cover-image" src="https://via.placeholder.com/1600x460" data-demo-src="assets/img/demo/unsplash/55.jpg" alt="">
+                <img class="cover-image" src="https://via.placeholder.com/1600x460" data-demo-src="../assets/img/demo/unsplash/55.jpg" alt="">
             </div>
 
             <!--Main infos-->
@@ -116,52 +116,52 @@
                     <div class="container-inner">
                         <a class="participant">
                             <div class="participant-avatar">
-                                <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/dan.jpg" data-user-popover="1" alt="">
+                                <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/dan.jpg" data-user-popover="1" alt="">
                             </div>
                         </a>
                         <a class="participant">
                             <div class="participant-avatar">
-                                <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/bobby.jpg" data-user-popover="8" alt="">
+                                <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/bobby.jpg" data-user-popover="8" alt="">
                             </div>
                         </a>
                         <a class="participant">
                             <div class="participant-avatar">
-                                <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/stella.jpg" data-user-popover="2" alt="">
+                                <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/stella.jpg" data-user-popover="2" alt="">
                             </div>
                         </a>
                         <a class="participant">
                             <div class="participant-avatar">
-                                <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/milly.jpg" data-user-popover="7" alt="">
+                                <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/milly.jpg" data-user-popover="7" alt="">
                             </div>
                         </a>
                         <a class="participant">
                             <div class="participant-avatar">
-                                <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/elise.jpg" data-user-popover="4" alt="">
+                                <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/elise.jpg" data-user-popover="4" alt="">
                             </div>
                         </a>
                         <a class="participant">
                             <div class="participant-avatar">
-                                <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/lana.jpeg" data-user-popover="10" alt="">
+                                <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/lana.jpeg" data-user-popover="10" alt="">
                             </div>
                         </a>
                         <a class="participant">
                             <div class="participant-avatar">
-                                <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/david.jpg" data-user-popover="4" alt="">
+                                <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/david.jpg" data-user-popover="4" alt="">
                             </div>
                         </a>
                         <a class="participant">
                             <div class="participant-avatar">
-                                <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/mike.jpg" data-user-popover="12" alt="">
+                                <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/mike.jpg" data-user-popover="12" alt="">
                             </div>
                         </a>
                         <a class="participant">
                             <div class="participant-avatar">
-                                <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/azzouz.jpg" data-user-popover="20" alt="">
+                                <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/azzouz.jpg" data-user-popover="20" alt="">
                             </div>
                         </a>
                         <a class="participant">
                             <div class="participant-avatar">
-                                <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/jenna.png" data-user-popover="0" alt="">
+                                <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/jenna.png" data-user-popover="0" alt="">
                                 <div class="more-overlay">
                                     <span>+26</span>
                                 </div>
@@ -200,14 +200,14 @@
                             </div>
 
                             <div class="photo-group">
-                                <a href="https://via.placeholder.com/1600x900" data-demo-href="assets/img/demo/unsplash/54.jpg" data-fancybox data-caption="">
-                                    <img src="https://via.placeholder.com/1600x900" data-demo-src="assets/img/demo/unsplash/54.jpg" alt="">
+                                <a href="https://via.placeholder.com/1600x900" data-demo-href="../assets/img/demo/unsplash/54.jpg" data-fancybox data-caption="">
+                                    <img src="https://via.placeholder.com/1600x900" data-demo-src="../assets/img/demo/unsplash/54.jpg" alt="">
                                 </a>
-                                <a href="https://via.placeholder.com/1600x900" data-demo-href="assets/img/demo/unsplash/7.jpg" data-fancybox data-caption="">
-                                    <img src="https://via.placeholder.com/1600x900" data-demo-src="assets/img/demo/unsplash/7.jpg" alt="">
+                                <a href="https://via.placeholder.com/1600x900" data-demo-href="../assets/img/demo/unsplash/7.jpg" data-fancybox data-caption="">
+                                    <img src="https://via.placeholder.com/1600x900" data-demo-src="../assets/img/demo/unsplash/7.jpg" alt="">
                                 </a>
-                                <a href="https://via.placeholder.com/1600x900" data-demo-href="assets/img/demo/unsplash/4.jpg" data-fancybox data-caption="">
-                                    <img src="https://via.placeholder.com/1600x900" data-demo-src="assets/img/demo/unsplash/4.jpg" alt="">
+                                <a href="https://via.placeholder.com/1600x900" data-demo-href="../assets/img/demo/unsplash/4.jpg" data-fancybox data-caption="">
+                                    <img src="https://via.placeholder.com/1600x900" data-demo-src="../assets/img/demo/unsplash/4.jpg" alt="">
                                 </a>
                             </div>
                         </div>
@@ -216,7 +216,7 @@
                     <!--Right side-->
                     <div class="right">
                         <div class="event-owner">
-                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/stella.jpg" data-user-popover="2" alt="">
+                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/stella.jpg" data-user-popover="2" alt="">
                             <div class="meta">
                                 <span>Event organized by</span>
                                 <span>Stella Bergmann</span>
@@ -262,32 +262,32 @@
     include("../views/embeds/explorer-menu.php");
     ?>
     <!-- Concatenated js plugins and jQuery -->
-    <script src="assets/js/app.js"></script>
-    <script src="assets/data/tipuedrop_content.js"></script>
+    <script src="../assets/js/app.js"></script>
+    <script src="../assets/data/tipuedrop_content.js"></script>
 
     <!-- Core js -->
-    <script src="assets/js/global.js"></script>
+    <script src="../assets/js/global.js"></script>
 
     <!-- Navigation options js -->
-    <script src="assets/js/navbar-v1.js"></script>
-    <script src="assets/js/navbar-v2.js"></script>
-    <script src="assets/js/navbar-mobile.js"></script>
-    <script src="assets/js/navbar-options.js"></script>
-    <script src="assets/js/sidebar-v1.js"></script>
+    <script src="../assets/js/navbar-v1.js"></script>
+    <script src="../assets/js/navbar-v2.js"></script>
+    <script src="../assets/js/navbar-mobile.js"></script>
+    <script src="../assets/js/navbar-options.js"></script>
+    <script src="../assets/js/sidebar-v1.js"></script>
 
     <!-- Core instance js -->
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/chat.js"></script>
-    <script src="assets/js/touch.js"></script>
-    <script src="assets/js/tour.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/chat.js"></script>
+    <script src="../assets/js/touch.js"></script>
+    <script src="../assets/js/tour.js"></script>
 
     <!-- Components js -->
-    <script src="assets/js/explorer.js"></script>
-    <script src="assets/js/widgets.js"></script>
-    <script src="assets/js/modal-uploader.js"></script>
-    <script src="assets/js/popovers-users.js"></script>
-    <script src="assets/js/popovers-pages.js"></script>
-    <script src="assets/js/lightbox.js"></script>
+    <script src="../assets/js/explorer.js"></script>
+    <script src="../assets/js/widgets.js"></script>
+    <script src="../assets/js/modal-uploader.js"></script>
+    <script src="../assets/js/popovers-users.js"></script>
+    <script src="../assets/js/popovers-pages.js"></script>
+    <script src="../assets/js/lightbox.js"></script>
 
     <!-- Landing page js -->
 
@@ -306,7 +306,7 @@
     <!-- video js -->
 
     <!-- events js -->
-    <script src="assets/js/events.js"></script>
+    <script src="../assets/js/events.js"></script>
 
     <!-- news js -->
 

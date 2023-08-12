@@ -75,7 +75,7 @@
         <div class="photo-list">
             <!-- Photo item -->
             <?php
-            include($base_url . "views/pages/profile/about/photo-item.php");
+            include("../views/pages/profile/about/photo-item.php");
             ?>
             <!-- Photo item -->
             <div class="photo-wrapper">
@@ -86,7 +86,7 @@
                         <i data-feather="heart"></i>
                     </div>
                 </div>
-                <img src="https://via.placeholder.com/400x400" data-demo-src="assets/img/demo/profile/about/photos/2.jpg" alt="">
+                <img src="https://via.placeholder.com/400x400" data-demo-src="../assets/img/demo/profile/about/photos/2.jpg" alt="">
             </div>
             <!-- Photo item -->
             <div class="photo-wrapper">
@@ -97,7 +97,7 @@
                         <i data-feather="heart"></i>
                     </div>
                 </div>
-                <img src="https://via.placeholder.com/400x400" data-demo-src="assets/img/demo/profile/about/photos/3.jpg" alt="">
+                <img src="https://via.placeholder.com/400x400" data-demo-src="../assets/img/demo/profile/about/photos/3.jpg" alt="">
             </div>
             <!-- Photo item -->
             <div class="photo-wrapper">
@@ -108,7 +108,7 @@
                         <i data-feather="heart"></i>
                     </div>
                 </div>
-                <img src="https://via.placeholder.com/400x400" data-demo-src="assets/img/demo/profile/about/photos/4.jpg" alt="">
+                <img src="https://via.placeholder.com/400x400" data-demo-src="../assets/img/demo/profile/about/photos/4.jpg" alt="">
             </div>
             <!-- Photo item -->
             <div class="photo-wrapper">
@@ -119,7 +119,7 @@
                         <i data-feather="heart"></i>
                     </div>
                 </div>
-                <img src="https://via.placeholder.com/400x400" data-demo-src="assets/img/demo/profile/about/photos/5.jpg" alt="">
+                <img src="https://via.placeholder.com/400x400" data-demo-src="../assets/img/demo/profile/about/photos/5.jpg" alt="">
             </div>
             <!-- Photo item -->
             <div class="photo-wrapper">
@@ -130,7 +130,7 @@
                         <i data-feather="heart"></i>
                     </div>
                 </div>
-                <img src="https://via.placeholder.com/400x400" data-demo-src="assets/img/demo/profile/about/photos/6.jpg" alt="">
+                <img src="https://via.placeholder.com/400x400" data-demo-src="../assets/img/demo/profile/about/photos/6.jpg" alt="">
             </div>
             <!-- Photo item -->
             <div class="photo-wrapper">
@@ -141,7 +141,7 @@
                         <i data-feather="heart"></i>
                     </div>
                 </div>
-                <img src="https://via.placeholder.com/400x400" data-demo-src="assets/img/demo/profile/about/photos/7.jpg" alt="">
+                <img src="https://via.placeholder.com/400x400" data-demo-src="../assets/img/demo/profile/about/photos/7.jpg" alt="">
             </div>
             <!-- Photo item -->
             <div class="photo-wrapper">
@@ -152,7 +152,7 @@
                         <i data-feather="heart"></i>
                     </div>
                 </div>
-                <img src="https://via.placeholder.com/400x400" data-demo-src="assets/img/demo/profile/about/photos/8.jpg" alt="">
+                <img src="https://via.placeholder.com/400x400" data-demo-src="../assets/img/demo/profile/about/photos/8.jpg" alt="">
             </div>
         </div>
     </div>

@@ -15,7 +15,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <title> Worshipmate | Groups</title>
-    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png" />
 
     <?php
         include_once("../views/embeds/head-embed.php");
@@ -67,9 +67,9 @@
                                 </div>
 
                             </div>
-                            <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/2.jpeg"></div>
+                            <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/2.jpeg"></div>
                             <a href="#" class="box-link">
-                                <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/2.jpeg"></div>
+                                <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/2.jpeg"></div>
                             </a>
                             <div class="box-info">
                                 <span class="box-category">Cooking</span>
@@ -77,9 +77,9 @@
                                 <span class="box-members">
                                         <a href="#">12.9k members</a>
                                         <div class="members-preview">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/elise.jpg" data-user-popover="6" alt="">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/daniel.jpg" data-user-popover="3" alt="">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/dan.jpg" data-user-popover="1" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/elise.jpg" data-user-popover="6" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/daniel.jpg" data-user-popover="3" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/dan.jpg" data-user-popover="1" alt="">
                                         </div>
                                     </span>
                             </div>
@@ -96,9 +96,9 @@
                                 </div>
 
                             </div>
-                            <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/3.jpeg"></div>
+                            <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/3.jpeg"></div>
                             <a href="#" class="box-link">
-                                <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/3.jpeg"></div>
+                                <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/3.jpeg"></div>
                             </a>
                             <div class="box-info">
                                 <span class="box-category">Fashion</span>
@@ -106,9 +106,9 @@
                                 <span class="box-members">
                                         <a href="#">40.7k members</a>
                                         <div class="members-preview">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/nelly.png" data-user-popover="9" alt="">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/stella.jpg" data-user-popover="2" alt="">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/jenna.png" data-user-popover="0" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/nelly.png" data-user-popover="9" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/stella.jpg" data-user-popover="2" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/jenna.png" data-user-popover="0" alt="">
                                         </div>
                                     </span>
                             </div>
@@ -125,9 +125,9 @@
                                 </div>
 
                             </div>
-                            <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/4.jpg"></div>
+                            <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/4.jpg"></div>
                             <a href="#" class="box-link">
-                                <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/4.jpg"></div>
+                                <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/4.jpg"></div>
                             </a>
                             <div class="box-info">
                                 <span class="box-category">Fashion</span>
@@ -135,9 +135,9 @@
                                 <span class="box-members">
                                         <a href="#">2.3k members</a>
                                         <div class="members-preview">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/rolf.jpg" data-user-popover="13" alt="">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/bobby.jpg" data-user-popover="8" alt="">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/mike.jpg" data-user-popover="17" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/rolf.jpg" data-user-popover="13" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/bobby.jpg" data-user-popover="8" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/mike.jpg" data-user-popover="17" alt="">
                                         </div>
                                     </span>
                             </div>
@@ -154,9 +154,9 @@
                                 </div>
 
                             </div>
-                            <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/5.jpeg"></div>
+                            <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/5.jpeg"></div>
                             <a href="#" class="box-link">
-                                <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/5.jpeg"></div>
+                                <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/5.jpeg"></div>
                             </a>
                             <div class="box-info">
                                 <span class="box-category">Sports</span>
@@ -164,9 +164,9 @@
                                 <span class="box-members">
                                         <a href="#">6.1k members</a>
                                         <div class="members-preview">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/jenna.png" data-user-popover="0" alt="">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/david.jpg" data-user-popover="4" alt="">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/edward.jpeg" data-user-popover="5" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/jenna.png" data-user-popover="0" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/david.jpg" data-user-popover="4" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/edward.jpeg" data-user-popover="5" alt="">
                                         </div>
                                     </span>
                             </div>
@@ -183,9 +183,9 @@
                                 </div>
 
                             </div>
-                            <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/6.jpeg"></div>
+                            <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/6.jpeg"></div>
                             <a href="#" class="box-link">
-                                <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/6.jpeg"></div>
+                                <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/6.jpeg"></div>
                             </a>
                             <div class="box-info">
                                 <span class="box-category">Lifestyle</span>
@@ -193,9 +193,9 @@
                                 <span class="box-members">
                                         <a href="#">78.5k members</a>
                                         <div class="members-preview">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/nelly.png" data-user-popover="9" alt="">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/stella.jpg" data-user-popover="2" alt="">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/jenna.png" data-user-popover="0" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/nelly.png" data-user-popover="9" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/stella.jpg" data-user-popover="2" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/jenna.png" data-user-popover="0" alt="">
                                         </div>
                                     </span>
                             </div>
@@ -212,9 +212,9 @@
                                 </div>
 
                             </div>
-                            <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/7.jpeg"></div>
+                            <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/7.jpeg"></div>
                             <a href="#" class="box-link">
-                                <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/7.jpeg"></div>
+                                <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/7.jpeg"></div>
                             </a>
                             <div class="box-info">
                                 <span class="box-category">Entertainment</span>
@@ -222,9 +222,9 @@
                                 <span class="box-members">
                                         <a href="#">489.3k members</a>
                                         <div class="members-preview">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/milly.jpg" data-user-popover="7" alt="">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/stella.jpg" data-user-popover="2" alt="">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/azzouz.jpg" data-user-popover="20" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/milly.jpg" data-user-popover="7" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/stella.jpg" data-user-popover="2" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/azzouz.jpg" data-user-popover="20" alt="">
                                         </div>
                                     </span>
                             </div>
@@ -241,9 +241,9 @@
                                 </div>
 
                             </div>
-                            <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/8.jpeg"></div>
+                            <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/8.jpeg"></div>
                             <a href="#" class="box-link">
-                                <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/8.jpeg"></div>
+                                <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/8.jpeg"></div>
                             </a>
                             <div class="box-info">
                                 <span class="box-category">Food</span>
@@ -251,9 +251,9 @@
                                 <span class="box-members">
                                         <a href="#">19.1k members</a>
                                         <div class="members-preview">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/nelly.png" data-user-popover="9" alt="">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/stella.jpg" data-user-popover="2" alt="">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/jenna.png" data-user-popover="0" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/nelly.png" data-user-popover="9" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/stella.jpg" data-user-popover="2" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/jenna.png" data-user-popover="0" alt="">
                                         </div>
                                     </span>
                             </div>
@@ -270,9 +270,9 @@
                                 </div>
 
                             </div>
-                            <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/9.jpeg"></div>
+                            <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/9.jpeg"></div>
                             <a href="#" class="box-link">
-                                <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/9.jpeg"></div>
+                                <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/9.jpeg"></div>
                             </a>
                             <div class="box-info">
                                 <span class="box-category">Food</span>
@@ -280,9 +280,9 @@
                                 <span class="box-members">
                                         <a href="#">3.7k members</a>
                                         <div class="members-preview">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/rolf.jpg" data-user-popover="13" alt="">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/ken.jpg" data-user-popover="14" alt="">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/bobby.jpg" data-user-popover="8" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/rolf.jpg" data-user-popover="13" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/ken.jpg" data-user-popover="14" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/bobby.jpg" data-user-popover="8" alt="">
                                         </div>
                                     </span>
                             </div>
@@ -299,9 +299,9 @@
                                 </div>
 
                             </div>
-                            <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/10.jpeg"></div>
+                            <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/10.jpeg"></div>
                             <a href="#" class="box-link">
-                                <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/10.jpeg"></div>
+                                <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/10.jpeg"></div>
                             </a>
                             <div class="box-info">
                                 <span class="box-category">Movies</span>
@@ -309,9 +309,9 @@
                                 <span class="box-members">
                                         <a href="#">36.3k members</a>
                                         <div class="members-preview">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/rolf.jpg" data-user-popover="13" alt="">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/edward.jpeg" data-user-popover="5" alt="">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/dan.jpg" data-user-popover="1" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/rolf.jpg" data-user-popover="13" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/edward.jpeg" data-user-popover="5" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/dan.jpg" data-user-popover="1" alt="">
                                         </div>
                                     </span>
                             </div>
@@ -328,9 +328,9 @@
                                 </div>
 
                             </div>
-                            <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/11.jpeg"></div>
+                            <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/11.jpeg"></div>
                             <a href="#" class="box-link">
-                                <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/11.jpeg"></div>
+                                <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/11.jpeg"></div>
                             </a>
                             <div class="box-info">
                                 <span class="box-category">Music</span>
@@ -338,9 +338,9 @@
                                 <span class="box-members">
                                         <a href="#">135.2k members</a>
                                         <div class="members-preview">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/rolf.jpg" data-user-popover="13" alt="">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/bobby.jpg" data-user-popover="8" alt="">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/mike.jpg" data-user-popover="17" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/rolf.jpg" data-user-popover="13" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/bobby.jpg" data-user-popover="8" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/mike.jpg" data-user-popover="17" alt="">
                                         </div>
                                     </span>
                             </div>
@@ -357,9 +357,9 @@
                                 </div>
 
                             </div>
-                            <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/12.jpeg"></div>
+                            <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/12.jpeg"></div>
                             <a href="#" class="box-link">
-                                <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/12.jpeg"></div>
+                                <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/12.jpeg"></div>
                             </a>
                             <div class="box-info">
                                 <span class="box-category">Music</span>
@@ -367,9 +367,9 @@
                                 <span class="box-members">
                                         <a href="#">112.6k members</a>
                                         <div class="members-preview">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/milly.jpg" data-user-popover="7" alt="">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/stella.jpg" data-user-popover="2" alt="">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/azzouz.jpg" data-user-popover="20" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/milly.jpg" data-user-popover="7" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/stella.jpg" data-user-popover="2" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/azzouz.jpg" data-user-popover="20" alt="">
                                         </div>
                                     </span>
                             </div>
@@ -386,9 +386,9 @@
                                 </div>
 
                             </div>
-                            <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/13.jpg"></div>
+                            <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/13.jpg"></div>
                             <a href="#" class="box-link">
-                                <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/13.jpg"></div>
+                                <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/13.jpg"></div>
                             </a>
                             <div class="box-info">
                                 <span class="box-category">Art</span>
@@ -396,9 +396,9 @@
                                 <span class="box-members">
                                         <a href="#">112.6k members</a>
                                         <div class="members-preview">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/dan.jpg" data-user-popover="0" alt="">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/elise.jpg" data-user-popover="6" alt="">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/mike.jpg" data-user-popover="14" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/dan.jpg" data-user-popover="0" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/elise.jpg" data-user-popover="6" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/mike.jpg" data-user-popover="14" alt="">
                                         </div>
                                     </span>
                             </div>
@@ -415,9 +415,9 @@
                                 </div>
 
                             </div>
-                            <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/14.jpeg"></div>
+                            <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/14.jpeg"></div>
                             <a href="#" class="box-link">
-                                <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/14.jpeg"></div>
+                                <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/14.jpeg"></div>
                             </a>
                             <div class="box-info">
                                 <span class="box-category">Books</span>
@@ -425,9 +425,9 @@
                                 <span class="box-members">
                                         <a href="#">1.2k members</a>
                                         <div class="members-preview">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/nelly.png" data-user-popover="9" alt="">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/stella.jpg" data-user-popover="2" alt="">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/jenna.png" data-user-popover="0" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/nelly.png" data-user-popover="9" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/stella.jpg" data-user-popover="2" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/jenna.png" data-user-popover="0" alt="">
                                         </div>
                                     </span>
                             </div>
@@ -444,9 +444,9 @@
                                 </div>
 
                             </div>
-                            <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/15.jpeg"></div>
+                            <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/15.jpeg"></div>
                             <a href="#" class="box-link">
-                                <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/15.jpeg"></div>
+                                <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/15.jpeg"></div>
                             </a>
                             <div class="box-info">
                                 <span class="box-category">Finance</span>
@@ -454,9 +454,9 @@
                                 <span class="box-members">
                                         <a href="#">119.3k members</a>
                                         <div class="members-preview">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/jenna.png" data-user-popover="0" alt="">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/david.jpg" data-user-popover="4" alt="">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/edward.jpeg" data-user-popover="5" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/jenna.png" data-user-popover="0" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/david.jpg" data-user-popover="4" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/edward.jpeg" data-user-popover="5" alt="">
                                         </div>
                                     </span>
                             </div>
@@ -473,9 +473,9 @@
                                 </div>
 
                             </div>
-                            <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/16.jpeg"></div>
+                            <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/16.jpeg"></div>
                             <a href="#" class="box-link">
-                                <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/16.jpeg"></div>
+                                <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/16.jpeg"></div>
                             </a>
                             <div class="box-info">
                                 <span class="box-category">Books</span>
@@ -483,9 +483,9 @@
                                 <span class="box-members">
                                         <a href="#">12.2k members</a>
                                         <div class="members-preview">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/rolf.jpg" data-user-popover="13" alt="">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/bobby.jpg" data-user-popover="8" alt="">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/mike.jpg" data-user-popover="17" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/rolf.jpg" data-user-popover="13" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/bobby.jpg" data-user-popover="8" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/mike.jpg" data-user-popover="17" alt="">
                                         </div>
                                     </span>
                             </div>
@@ -502,9 +502,9 @@
                                 </div>
 
                             </div>
-                            <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/17.jpeg"></div>
+                            <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/17.jpeg"></div>
                             <a href="#" class="box-link">
-                                <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/17.jpeg"></div>
+                                <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/17.jpeg"></div>
                             </a>
                             <div class="box-info">
                                 <span class="box-category">Travel</span>
@@ -512,9 +512,9 @@
                                 <span class="box-members">
                                         <a href="#">200.7k members</a>
                                         <div class="members-preview">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/jenna.png" data-user-popover="0" alt="">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/dan.jpg" data-user-popover="1" alt="">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/edward.jpeg" data-user-popover="5" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/jenna.png" data-user-popover="0" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/dan.jpg" data-user-popover="1" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/edward.jpeg" data-user-popover="5" alt="">
                                         </div>
                                     </span>
                             </div>
@@ -531,9 +531,9 @@
                                 </div>
 
                             </div>
-                            <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/18.jpeg"></div>
+                            <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/18.jpeg"></div>
                             <a href="#" class="box-link">
-                                <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/18.jpeg"></div>
+                                <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/18.jpeg"></div>
                             </a>
                             <div class="box-info">
                                 <span class="box-category">Automotive</span>
@@ -541,9 +541,9 @@
                                 <span class="box-members">
                                         <a href="#">2.8k members</a>
                                         <div class="members-preview">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/mike.jpg" data-user-popover="14" alt="">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/rolf.jpg" data-user-popover="13" alt="">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/daniel.jpg" data-user-popover="3" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/mike.jpg" data-user-popover="14" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/rolf.jpg" data-user-popover="13" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/daniel.jpg" data-user-popover="3" alt="">
                                         </div>
                                     </span>
                             </div>
@@ -560,9 +560,9 @@
                                 </div>
 
                             </div>
-                            <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/19.jpeg"></div>
+                            <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/19.jpeg"></div>
                             <a href="#" class="box-link">
-                                <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/19.jpeg"></div>
+                                <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/19.jpeg"></div>
                             </a>
                             <div class="box-info">
                                 <span class="box-category">Architecture</span>
@@ -570,9 +570,9 @@
                                 <span class="box-members">
                                         <a href="#">65.4k members</a>
                                         <div class="members-preview">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/elise.jpg" data-user-popover="6" alt="">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/stella.jpg" data-user-popover="2" alt="">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/milly.jpg" data-user-popover="7" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/elise.jpg" data-user-popover="6" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/stella.jpg" data-user-popover="2" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/milly.jpg" data-user-popover="7" alt="">
                                         </div>
                                     </span>
                             </div>
@@ -589,9 +589,9 @@
                                 </div>
 
                             </div>
-                            <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/20.jpeg"></div>
+                            <div class="box-img has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/20.jpeg"></div>
                             <a href="#" class="box-link">
-                                <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="assets/img/demo/groups/20.jpeg"></div>
+                                <div class="box-img--hover has-background-image" data-background="https://via.placeholder.com/940x650" data-demo-background="../assets/img/demo/groups/20.jpeg"></div>
                             </a>
                             <div class="box-info">
                                 <span class="box-category">Art</span>
@@ -599,9 +599,9 @@
                                 <span class="box-members">
                                         <a href="#">11k members</a>
                                         <div class="members-preview">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/daniel.jpg" data-user-popover="5" alt="">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/stella.jpg" data-user-popover="2" alt="">
-                                            <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/jenna.png" data-user-popover="0" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/daniel.jpg" data-user-popover="5" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/stella.jpg" data-user-popover="2" alt="">
+                                            <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/jenna.png" data-user-popover="0" alt="">
                                         </div>
                                     </span>
                             </div>
@@ -642,7 +642,7 @@
                 <div class="card-body has-text-centered">
 
                     <div class="image-wrap">
-                        <img src="assets/img/vector/logo/friendkit.svg" alt="">
+                        <img src="../assets/img/vector/logo/friendkit.svg" alt="">
                     </div>
 
                     <h3>That's all folks!</h3>
@@ -656,33 +656,32 @@
         </div>
     </div>
     <!-- Concatenated js plugins and jQuery -->
-    <script src="assets/js/app.js"></script>
-    <script src="https://js.stripe.com/v3/"></script>
-    <script src="assets/data/tipuedrop_content.js"></script>
+    <script src="../assets/js/app.js"></script>
+    <script src="../assets/data/tipuedrop_content.js"></script>
 
     <!-- Core js -->
-    <script src="assets/js/global.js"></script>
+    <script src="../assets/js/global.js"></script>
 
     <!-- Navigation options js -->
-    <script src="assets/js/navbar-v1.js"></script>
-    <script src="assets/js/navbar-v2.js"></script>
-    <script src="assets/js/navbar-mobile.js"></script>
-    <script src="assets/js/navbar-options.js"></script>
-    <script src="assets/js/sidebar-v1.js"></script>
+    <script src="../assets/js/navbar-v1.js"></script>
+    <script src="../assets/js/navbar-v2.js"></script>
+    <script src="../assets/js/navbar-mobile.js"></script>
+    <script src="../assets/js/navbar-options.js"></script>
+    <script src="../assets/js/sidebar-v1.js"></script>
 
     <!-- Core instance js -->
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/chat.js"></script>
-    <script src="assets/js/touch.js"></script>
-    <script src="assets/js/tour.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/chat.js"></script>
+    <script src="../assets/js/touch.js"></script>
+    <script src="../assets/js/tour.js"></script>
 
     <!-- Components js -->
-    <script src="assets/js/explorer.js"></script>
-    <script src="assets/js/widgets.js"></script>
-    <script src="assets/js/modal-uploader.js"></script>
-    <script src="assets/js/popovers-users.js"></script>
-    <script src="assets/js/popovers-pages.js"></script>
-    <script src="assets/js/lightbox.js"></script>
+    <script src="../assets/js/explorer.js"></script>
+    <script src="../assets/js/widgets.js"></script>
+    <script src="../assets/js/modal-uploader.js"></script>
+    <script src="../assets/js/popovers-users.js"></script>
+    <script src="../assets/js/popovers-pages.js"></script>
+    <script src="../assets/js/lightbox.js"></script>
 
     <!-- Landing page js -->
 

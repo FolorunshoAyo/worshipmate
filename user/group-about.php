@@ -15,7 +15,7 @@ $userController->checkUserSession();
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <title> Friendkit | Page Profile</title>
-    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png" />
 
     <?php
     include("../views/embeds/head-embed.php");
@@ -199,7 +199,7 @@ $userController->checkUserSession();
                 <div class="nav-start">
                     <div class="recipient-block">
                         <div class="avatar-container">
-                            <img class="user-avatar" src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/dan.jpg" alt="">
+                            <img class="user-avatar" src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/dan.jpg" alt="">
                         </div>
                         <div class="username">
                             <span>Dan Walker</span>
@@ -360,64 +360,64 @@ $userController->checkUserSession();
             <div id="chat-sidebar" class="users-sidebar">
                 <!-- Header -->
                 <div class="header-item">
-                    <img class="light-image" src="assets/img/vector/logo/friendkit-bold.svg" alt="">
-                    <img class="dark-image" src="assets/img/vector/logo/friendkit-white.svg" alt="">
+                    <img class="light-image" src="../assets/img/vector/logo/friendkit-bold.svg" alt="">
+                    <img class="dark-image" src="../assets/img/vector/logo/friendkit-white.svg" alt="">
                 </div>
                 <!-- User list -->
                 <div class="conversations-list has-slimscroll-xs">
                     <!-- User -->
                     <div class="user-item is-active" data-chat-user="dan" data-full-name="Dan Walker" data-status="Online">
                         <div class="avatar-container">
-                            <img class="user-avatar" src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/dan.jpg" alt="">
+                            <img class="user-avatar" src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/dan.jpg" alt="">
                             <div class="user-status is-online"></div>
                         </div>
                     </div>
                     <!-- User -->
                     <div class="user-item" data-chat-user="stella" data-full-name="Stella Bergmann" data-status="Busy">
                         <div class="avatar-container">
-                            <img class="user-avatar" src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/stella.jpg" alt="">
+                            <img class="user-avatar" src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/stella.jpg" alt="">
                             <div class="user-status is-busy"></div>
                         </div>
                     </div>
                     <!-- User -->
                     <div class="user-item" data-chat-user="daniel" data-full-name="Daniel Wellington" data-status="Away">
                         <div class="avatar-container">
-                            <img class="user-avatar" src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/daniel.jpg" alt="">
+                            <img class="user-avatar" src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/daniel.jpg" alt="">
                             <div class="user-status is-away"></div>
                         </div>
                     </div>
                     <!-- User -->
                     <div class="user-item" data-chat-user="david" data-full-name="David Kim" data-status="Busy">
                         <div class="avatar-container">
-                            <img class="user-avatar" src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/david.jpg" alt="">
+                            <img class="user-avatar" src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/david.jpg" alt="">
                             <div class="user-status is-busy"></div>
                         </div>
                     </div>
                     <!-- User -->
                     <div class="user-item" data-chat-user="edward" data-full-name="Edward Mayers" data-status="Online">
                         <div class="avatar-container">
-                            <img class="user-avatar" src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/edward.jpeg" alt="">
+                            <img class="user-avatar" src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/edward.jpeg" alt="">
                             <div class="user-status is-online"></div>
                         </div>
                     </div>
                     <!-- User -->
                     <div class="user-item" data-chat-user="elise" data-full-name="Elise Walker" data-status="Away">
                         <div class="avatar-container">
-                            <img class="user-avatar" src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/elise.jpg" alt="">
+                            <img class="user-avatar" src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/elise.jpg" alt="">
                             <div class="user-status is-away"></div>
                         </div>
                     </div>
                     <!-- User -->
                     <div class="user-item" data-chat-user="nelly" data-full-name="Nelly Schwartz" data-status="Busy">
                         <div class="avatar-container">
-                            <img class="user-avatar" src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/nelly.png" alt="">
+                            <img class="user-avatar" src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/nelly.png" alt="">
                             <div class="user-status is-busy"></div>
                         </div>
                     </div>
                     <!-- User -->
                     <div class="user-item" data-chat-user="milly" data-full-name="Milly Augustine" data-status="Busy">
                         <div class="avatar-container">
-                            <img class="user-avatar" src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/milly.jpg" alt="">
+                            <img class="user-avatar" src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/milly.jpg" alt="">
                             <div class="user-status is-busy"></div>
                         </div>
                     </div>
@@ -438,7 +438,7 @@ $userController->checkUserSession();
                     </div>
 
                     <div class="chat-message is-received">
-                        <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/dan.jpg" alt="">
+                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/dan.jpg" alt="">
                         <div class="message-block">
                             <span>8:03am</span>
                             <div class="message-text">Hi Jenna! I made a new design, and i wanted to show it to you.</div>
@@ -446,7 +446,7 @@ $userController->checkUserSession();
                     </div>
 
                     <div class="chat-message is-received">
-                        <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/dan.jpg" alt="">
+                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/dan.jpg" alt="">
                         <div class="message-block">
                             <span>8:03am</span>
                             <div class="message-text">It's quite clean and it's inspired from Bulkit.</div>
@@ -454,7 +454,7 @@ $userController->checkUserSession();
                     </div>
 
                     <div class="chat-message is-sent">
-                        <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/jenna.png" alt="">
+                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/jenna.png" alt="">
                         <div class="message-block">
                             <span>8:12am</span>
                             <div class="message-text">Oh really??! I want to see that.</div>
@@ -462,7 +462,7 @@ $userController->checkUserSession();
                     </div>
 
                     <div class="chat-message is-received">
-                        <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/dan.jpg" alt="">
+                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/dan.jpg" alt="">
                         <div class="message-block">
                             <span>8:13am</span>
                             <div class="message-text">FYI it was done in less than a day.</div>
@@ -470,7 +470,7 @@ $userController->checkUserSession();
                     </div>
 
                     <div class="chat-message is-sent">
-                        <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/jenna.png" alt="">
+                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/jenna.png" alt="">
                         <div class="message-block">
                             <span>8:17am</span>
                             <div class="message-text">Great to hear it. Just send me the PSD files so i can have a look at it.</div>
@@ -478,7 +478,7 @@ $userController->checkUserSession();
                     </div>
 
                     <div class="chat-message is-sent">
-                        <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/jenna.png" alt="">
+                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/jenna.png" alt="">
                         <div class="message-block">
                             <span>8:18am</span>
                             <div class="message-text">And if you have a prototype, you can also send me the link to it.</div>
@@ -493,7 +493,7 @@ $userController->checkUserSession();
                     </div>
 
                     <div class="chat-message is-sent">
-                        <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/jenna.png" alt="">
+                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/jenna.png" alt="">
                         <div class="message-block">
                             <span>10:34am</span>
                             <div class="message-text">Hey Stella! Aren't we supposed to go the theatre after work?.</div>
@@ -501,7 +501,7 @@ $userController->checkUserSession();
                     </div>
 
                     <div class="chat-message is-sent">
-                        <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/jenna.png" alt="">
+                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/jenna.png" alt="">
                         <div class="message-block">
                             <span>10:37am</span>
                             <div class="message-text">Just remembered it.</div>
@@ -509,7 +509,7 @@ $userController->checkUserSession();
                     </div>
 
                     <div class="chat-message is-received">
-                        <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/stella.jpg" alt="">
+                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/stella.jpg" alt="">
                         <div class="message-block">
                             <span>11:22am</span>
                             <div class="message-text">Yeah you always do that, forget about everything.</div>
@@ -524,7 +524,7 @@ $userController->checkUserSession();
                     </div>
 
                     <div class="chat-message is-sent">
-                        <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/jenna.png" alt="">
+                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/jenna.png" alt="">
                         <div class="message-block">
                             <span>3:24pm</span>
                             <div class="message-text">Daniel, Amanda told me about your issue, how can I help?</div>
@@ -532,7 +532,7 @@ $userController->checkUserSession();
                     </div>
 
                     <div class="chat-message is-received">
-                        <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/daniel.jpg" alt="">
+                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/daniel.jpg" alt="">
                         <div class="message-block">
                             <span>3:42pm</span>
                             <div class="message-text">Hey Jenna, thanks for answering so quickly. Iam stuck, i need a car.</div>
@@ -540,7 +540,7 @@ $userController->checkUserSession();
                     </div>
 
                     <div class="chat-message is-received">
-                        <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/daniel.jpg" alt="">
+                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/daniel.jpg" alt="">
                         <div class="message-block">
                             <span>3:43pm</span>
                             <div class="message-text">Can i borrow your car for a quick ride to San Fransisco? Iam running behind and
@@ -556,7 +556,7 @@ $userController->checkUserSession();
                     </div>
 
                     <div class="chat-message is-sent">
-                        <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/jenna.png" alt="">
+                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/jenna.png" alt="">
                         <div class="message-block">
                             <span>12:34pm</span>
                             <div class="message-text">Damn you! Why would you even implement this in the game?.</div>
@@ -564,7 +564,7 @@ $userController->checkUserSession();
                     </div>
 
                     <div class="chat-message is-sent">
-                        <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/jenna.png" alt="">
+                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/jenna.png" alt="">
                         <div class="message-block">
                             <span>12:32pm</span>
                             <div class="message-text">I just HATE aliens.</div>
@@ -572,7 +572,7 @@ $userController->checkUserSession();
                     </div>
 
                     <div class="chat-message is-received">
-                        <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/david.jpg" alt="">
+                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/david.jpg" alt="">
                         <div class="message-block">
                             <span>13:09pm</span>
                             <div class="message-text">C'mon, you just gotta learn the tricks. You can't expect aliens to behave like
@@ -580,7 +580,7 @@ $userController->checkUserSession();
                         </div>
                     </div>
                     <div class="chat-message is-received">
-                        <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/david.jpg" alt="">
+                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/david.jpg" alt="">
                         <div class="message-block">
                             <span>13:11pm</span>
                             <div class="message-text">I checked the replay and for example, you always get supply blocked. That's not
@@ -588,14 +588,14 @@ $userController->checkUserSession();
                         </div>
                     </div>
                     <div class="chat-message is-sent">
-                        <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/jenna.png" alt="">
+                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/jenna.png" alt="">
                         <div class="message-block">
                             <span>13:12pm</span>
                             <div class="message-text">I know but i struggle when i have to decide what to make from larvas.</div>
                         </div>
                     </div>
                     <div class="chat-message is-received">
-                        <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/david.jpg" alt="">
+                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/david.jpg" alt="">
                         <div class="message-block">
                             <span>13:17pm</span>
                             <div class="message-text">Join me in game, i'll show you.</div>
@@ -610,7 +610,7 @@ $userController->checkUserSession();
                     </div>
 
                     <div class="chat-message is-received">
-                        <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/edward.jpeg" alt="">
+                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/edward.jpeg" alt="">
                         <div class="message-block">
                             <span>4:55pm</span>
                             <div class="message-text">Hey Jenna, what's up?</div>
@@ -618,7 +618,7 @@ $userController->checkUserSession();
                     </div>
 
                     <div class="chat-message is-received">
-                        <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/edward.jpeg" alt="">
+                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/edward.jpeg" alt="">
                         <div class="message-block">
                             <span>4:56pm</span>
                             <div class="message-text">Iam coming to LA tomorrow. Interested in having lunch?</div>
@@ -626,7 +626,7 @@ $userController->checkUserSession();
                     </div>
 
                     <div class="chat-message is-sent">
-                        <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/jenna.png" alt="">
+                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/jenna.png" alt="">
                         <div class="message-block">
                             <span>5:21pm</span>
                             <div class="message-text">Hey mate, it's been a while. Sure I would love to.</div>
@@ -634,7 +634,7 @@ $userController->checkUserSession();
                     </div>
 
                     <div class="chat-message is-received">
-                        <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/edward.jpeg" alt="">
+                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/edward.jpeg" alt="">
                         <div class="message-block">
                             <span>5:27pm</span>
                             <div class="message-text">Ok. Let's say i pick you up at 12:30 at work, works?</div>
@@ -642,7 +642,7 @@ $userController->checkUserSession();
                     </div>
 
                     <div class="chat-message is-sent">
-                        <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/jenna.png" alt="">
+                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/jenna.png" alt="">
                         <div class="message-block">
                             <span>5:43pm</span>
                             <div class="message-text">Yup, that works great.</div>
@@ -650,7 +650,7 @@ $userController->checkUserSession();
                     </div>
 
                     <div class="chat-message is-sent">
-                        <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/jenna.png" alt="">
+                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/jenna.png" alt="">
                         <div class="message-block">
                             <span>5:44pm</span>
                             <div class="message-text">And yeah, don't forget to bring some of my favourite cheese cake.</div>
@@ -658,7 +658,7 @@ $userController->checkUserSession();
                     </div>
 
                     <div class="chat-message is-received">
-                        <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/edward.jpeg" alt="">
+                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/edward.jpeg" alt="">
                         <div class="message-block">
                             <span>5:27pm</span>
                             <div class="message-text">No worries</div>
@@ -673,7 +673,7 @@ $userController->checkUserSession();
                     </div>
 
                     <div class="chat-message is-sent">
-                        <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/jenna.png" alt="">
+                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/jenna.png" alt="">
                         <div class="message-block">
                             <span>11:53am</span>
                             <div class="message-text">Elise, i forgot my folder at your place yesterday.</div>
@@ -681,7 +681,7 @@ $userController->checkUserSession();
                     </div>
 
                     <div class="chat-message is-sent">
-                        <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/jenna.png" alt="">
+                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/jenna.png" alt="">
                         <div class="message-block">
                             <span>11:53am</span>
                             <div class="message-text">I need it badly, it's work stuff.</div>
@@ -689,7 +689,7 @@ $userController->checkUserSession();
                     </div>
 
                     <div class="chat-message is-received">
-                        <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/elise.jpg" alt="">
+                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/elise.jpg" alt="">
                         <div class="message-block">
                             <span>12:19pm</span>
                             <div class="message-text">Yeah i noticed. I'll drop it in half an hour at your office.</div>
@@ -704,7 +704,7 @@ $userController->checkUserSession();
                     </div>
 
                     <div class="chat-message is-sent">
-                        <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/jenna.png" alt="">
+                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/jenna.png" alt="">
                         <div class="message-block">
                             <span>8:22pm</span>
                             <div class="message-text">So you watched the movie?</div>
@@ -712,7 +712,7 @@ $userController->checkUserSession();
                     </div>
 
                     <div class="chat-message is-sent">
-                        <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/jenna.png" alt="">
+                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/jenna.png" alt="">
                         <div class="message-block">
                             <span>8:22pm</span>
                             <div class="message-text">Was it scary?</div>
@@ -720,7 +720,7 @@ $userController->checkUserSession();
                     </div>
 
                     <div class="chat-message is-received">
-                        <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/nelly.png" alt="">
+                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/nelly.png" alt="">
                         <div class="message-block">
                             <span>9:03pm</span>
                             <div class="message-text">It was so frightening, i felt my heart was about to blow inside my chest.</div>
@@ -735,7 +735,7 @@ $userController->checkUserSession();
                     </div>
 
                     <div class="chat-message is-received">
-                        <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/milly.jpg" alt="">
+                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/milly.jpg" alt="">
                         <div class="message-block">
                             <span>2:01pm</span>
                             <div class="message-text">Hello Jenna, did you read my proposal?</div>
@@ -743,7 +743,7 @@ $userController->checkUserSession();
                     </div>
 
                     <div class="chat-message is-received">
-                        <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/milly.jpg" alt="">
+                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/milly.jpg" alt="">
                         <div class="message-block">
                             <span>2:01pm</span>
                             <div class="message-text">Didn't hear from you since i sent it.</div>
@@ -751,7 +751,7 @@ $userController->checkUserSession();
                     </div>
 
                     <div class="chat-message is-sent">
-                        <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/jenna.png" alt="">
+                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/jenna.png" alt="">
                         <div class="message-block">
                             <span>2:02pm</span>
                             <div class="message-text">Hello Milly, Iam really sorry, Iam so busy recently, but i had the time to read
@@ -760,7 +760,7 @@ $userController->checkUserSession();
                     </div>
 
                     <div class="chat-message is-received">
-                        <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/milly.jpg" alt="">
+                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/milly.jpg" alt="">
                         <div class="message-block">
                             <span>2:04pm</span>
                             <div class="message-text">And what did you think about it?</div>
@@ -768,7 +768,7 @@ $userController->checkUserSession();
                     </div>
 
                     <div class="chat-message is-sent">
-                        <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/jenna.png" alt="">
+                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/jenna.png" alt="">
                         <div class="message-block">
                             <span>2:05pm</span>
                             <div class="message-text">Actually it's quite good, there might be some small changes but overall it's
@@ -777,7 +777,7 @@ $userController->checkUserSession();
                     </div>
 
                     <div class="chat-message is-sent">
-                        <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/jenna.png" alt="">
+                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/jenna.png" alt="">
                         <div class="message-block">
                             <span>2:07pm</span>
                             <div class="message-text">I think that i can give it to my boss at this stage.</div>
@@ -785,7 +785,7 @@ $userController->checkUserSession();
                     </div>
 
                     <div class="chat-message is-received">
-                        <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/milly.jpg" alt="">
+                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/milly.jpg" alt="">
                         <div class="message-block">
                             <span>2:09pm</span>
                             <div class="message-text">Crossing fingers then</div>
@@ -927,7 +927,7 @@ $userController->checkUserSession();
                             </div>
 
                             <div class="details-avatar">
-                                <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/dan.jpg" alt="">
+                                <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/dan.jpg" alt="">
                                 <div class="call-me">
                                     <i class="mdi mdi-phone"></i>
                                 </div>
@@ -1046,7 +1046,7 @@ $userController->checkUserSession();
                             </div>
 
                             <div class="details-avatar">
-                                <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/stella.jpg" alt="">
+                                <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/stella.jpg" alt="">
                                 <div class="call-me">
                                     <i class="mdi mdi-phone"></i>
                                 </div>
@@ -1160,7 +1160,7 @@ $userController->checkUserSession();
                             </div>
 
                             <div class="details-avatar">
-                                <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/daniel.jpg" alt="">
+                                <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/daniel.jpg" alt="">
                                 <div class="call-me">
                                     <i class="mdi mdi-phone"></i>
                                 </div>
@@ -1279,7 +1279,7 @@ $userController->checkUserSession();
                             </div>
 
                             <div class="details-avatar">
-                                <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/david.jpg" alt="">
+                                <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/david.jpg" alt="">
                                 <div class="call-me">
                                     <i class="mdi mdi-phone"></i>
                                 </div>
@@ -1398,7 +1398,7 @@ $userController->checkUserSession();
                             </div>
 
                             <div class="details-avatar">
-                                <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/edward.jpeg" alt="">
+                                <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/edward.jpeg" alt="">
                                 <div class="call-me">
                                     <i class="mdi mdi-phone"></i>
                                 </div>
@@ -1512,7 +1512,7 @@ $userController->checkUserSession();
                             </div>
 
                             <div class="details-avatar">
-                                <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/elise.jpg" alt="">
+                                <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/elise.jpg" alt="">
                                 <div class="call-me">
                                     <i class="mdi mdi-phone"></i>
                                 </div>
@@ -1621,7 +1621,7 @@ $userController->checkUserSession();
                             </div>
 
                             <div class="details-avatar">
-                                <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/nelly.png" alt="">
+                                <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/nelly.png" alt="">
                                 <div class="call-me">
                                     <i class="mdi mdi-phone"></i>
                                 </div>
@@ -1740,7 +1740,7 @@ $userController->checkUserSession();
                             </div>
 
                             <div class="details-avatar">
-                                <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/milly.jpg" alt="">
+                                <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/milly.jpg" alt="">
                                 <div class="call-me">
                                     <i class="mdi mdi-phone"></i>
                                 </div>
@@ -1806,33 +1806,33 @@ $userController->checkUserSession();
     ?>
     
     <!-- Concatenated js plugins and jQuery -->
-    <script src="assets/js/app.js"></script>
+    <script src="../assets/js/app.js"></script>
     <script src="https://js.stripe.com/v3/"></script>
-    <script src="assets/data/tipuedrop_content.js"></script>
+    <script src="../assets/data/tipuedrop_content.js"></script>
 
     <!-- Core js -->
-    <script src="assets/js/global.js"></script>
+    <script src="../assets/js/global.js"></script>
 
     <!-- Navigation options js -->
-    <script src="assets/js/navbar-v1.js"></script>
-    <script src="assets/js/navbar-v2.js"></script>
-    <script src="assets/js/navbar-mobile.js"></script>
-    <script src="assets/js/navbar-options.js"></script>
-    <script src="assets/js/sidebar-v1.js"></script>
+    <script src="../assets/js/navbar-v1.js"></script>
+    <script src="../assets/js/navbar-v2.js"></script>
+    <script src="../assets/js/navbar-mobile.js"></script>
+    <script src="../assets/js/navbar-options.js"></script>
+    <script src="../assets/js/sidebar-v1.js"></script>
 
     <!-- Core instance js -->
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/chat.js"></script>
-    <script src="assets/js/touch.js"></script>
-    <script src="assets/js/tour.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/chat.js"></script>
+    <script src="../assets/js/touch.js"></script>
+    <script src="../assets/js/tour.js"></script>
 
     <!-- Components js -->
-    <script src="assets/js/explorer.js"></script>
-    <script src="assets/js/widgets.js"></script>
-    <script src="assets/js/modal-uploader.js"></script>
-    <script src="assets/js/popovers-users.js"></script>
-    <script src="assets/js/popovers-pages.js"></script>
-    <script src="assets/js/lightbox.js"></script>
+    <script src="../assets/js/explorer.js"></script>
+    <script src="../assets/js/widgets.js"></script>
+    <script src="../assets/js/modal-uploader.js"></script>
+    <script src="../assets/js/popovers-users.js"></script>
+    <script src="../assets/js/popovers-pages.js"></script>
+    <script src="../assets/js/lightbox.js"></script>
 
     <!-- Landing page js -->
 
@@ -1841,7 +1841,7 @@ $userController->checkUserSession();
     <!-- Feed pages js -->
 
     <!-- profile js -->
-    <script src="assets/js/profile.js"></script>
+    <script src="../assets/js/profile.js"></script>
 
     <!-- stories js -->
 

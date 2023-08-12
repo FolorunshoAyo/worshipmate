@@ -15,7 +15,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <title> Worshipmate | Group Photos</title>
-    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png" />
 
    <?php
     include("../views/embeds/head-embed.php");
@@ -116,10 +116,10 @@
                                 <!--Grid Row-->
                                 <div class="image-row">
                                     <!--Photo-->
-                                    <div class="flex-1 has-background-image" data-background="https://via.placeholder.com/1600x900" data-demo-background="assets/img/demo/pages/posts/5.jpg">
+                                    <div class="flex-1 has-background-image" data-background="https://via.placeholder.com/1600x900" data-demo-background="../assets/img/demo/pages/posts/5.jpg">
                                         <div class="overlay"></div>
                                         <div class="image-owner">
-                                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="assets/img/vector/icons/logos/fastpizza.svg" alt="">
+                                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/vector/icons/logos/fastpizza.svg" alt="">
                                             <div class="name">Fast Pizza</div>
                                         </div>
                                         <div class="photo-time">Aug 23, 2019</div>
@@ -131,10 +131,10 @@
                                         </a>
                                     </div>
                                     <!--Photo-->
-                                    <div class="flex-1 has-background-image" data-background="https://via.placeholder.com/1600x900" data-demo-background="assets/img/demo/pages/posts/3.jpg">
+                                    <div class="flex-1 has-background-image" data-background="https://via.placeholder.com/1600x900" data-demo-background="../assets/img/demo/pages/posts/3.jpg">
                                         <div class="overlay"></div>
                                         <div class="image-owner">
-                                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="assets/img/vector/icons/logos/fastpizza.svg" alt="">
+                                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/vector/icons/logos/fastpizza.svg" alt="">
                                             <div class="name">Fast Pizza</div>
                                         </div>
                                         <div class="photo-time">Aug 19, 2019</div>
@@ -146,10 +146,10 @@
                                         </a>
                                     </div>
                                     <!--Photo-->
-                                    <div class="flex-2 has-background-image" data-background="https://via.placeholder.com/1600x900" data-demo-background="assets/img/demo/pages/posts/1.jpg">
+                                    <div class="flex-2 has-background-image" data-background="https://via.placeholder.com/1600x900" data-demo-background="../assets/img/demo/pages/posts/1.jpg">
                                         <div class="overlay"></div>
                                         <div class="image-owner">
-                                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="assets/img/vector/icons/logos/fastpizza.svg" alt="">
+                                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/vector/icons/logos/fastpizza.svg" alt="">
                                             <div class="name">Fast Pizza</div>
                                         </div>
                                         <div class="photo-time">Aug 17, 2019</div>
@@ -165,10 +165,10 @@
                                 <!--Grid Row-->
                                 <div class="image-row">
                                     <!--Photo-->
-                                    <div class="flex-1 has-background-image" data-background="https://via.placeholder.com/1600x900" data-demo-background="assets/img/demo/pages/posts/6.jpg">
+                                    <div class="flex-1 has-background-image" data-background="https://via.placeholder.com/1600x900" data-demo-background="../assets/img/demo/pages/posts/6.jpg">
                                         <div class="overlay"></div>
                                         <div class="image-owner">
-                                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="assets/img/vector/icons/logos/fastpizza.svg" alt="">
+                                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/vector/icons/logos/fastpizza.svg" alt="">
                                             <div class="name">Fast Pizza</div>
                                         </div>
                                         <div class="photo-time">Aug 15, 2019</div>
@@ -180,10 +180,10 @@
                                         </a>
                                     </div>
                                     <!--Photo-->
-                                    <div class="flex-2 has-background-image" data-background="https://via.placeholder.com/1600x900" data-demo-background="assets/img/demo/pages/posts/2.jpg">
+                                    <div class="flex-2 has-background-image" data-background="https://via.placeholder.com/1600x900" data-demo-background="../assets/img/demo/pages/posts/2.jpg">
                                         <div class="overlay"></div>
                                         <div class="image-owner">
-                                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="assets/img/vector/icons/logos/fastpizza.svg" alt="">
+                                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/vector/icons/logos/fastpizza.svg" alt="">
                                             <div class="name">Fast Pizza</div>
                                         </div>
                                         <div class="photo-time">Aug 12, 2019</div>
@@ -199,10 +199,10 @@
                                 <!--Grid Row-->
                                 <div class="image-row">
                                     <!--Photo-->
-                                    <div class="flex-2 has-background-image" data-background="https://via.placeholder.com/1600x900" data-demo-background="assets/img/demo/pages/posts/8.jpg">
+                                    <div class="flex-2 has-background-image" data-background="https://via.placeholder.com/1600x900" data-demo-background="../assets/img/demo/pages/posts/8.jpg">
                                         <div class="overlay"></div>
                                         <div class="image-owner">
-                                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="assets/img/vector/icons/logos/fastpizza.svg" alt="">
+                                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/vector/icons/logos/fastpizza.svg" alt="">
                                             <div class="name">Fast Pizza</div>
                                         </div>
                                         <div class="photo-time">Aug 12, 2019</div>
@@ -214,10 +214,10 @@
                                         </a>
                                     </div>
                                     <!--Photo-->
-                                    <div class="flex-3 has-background-image" data-background="https://via.placeholder.com/1600x900" data-demo-background="assets/img/demo/pages/posts/7.jpg">
+                                    <div class="flex-3 has-background-image" data-background="https://via.placeholder.com/1600x900" data-demo-background="../assets/img/demo/pages/posts/7.jpg">
                                         <div class="overlay"></div>
                                         <div class="image-owner">
-                                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="assets/img/vector/icons/logos/fastpizza.svg" alt="">
+                                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/vector/icons/logos/fastpizza.svg" alt="">
                                             <div class="name">Fast Pizza</div>
                                         </div>
                                         <div class="photo-time">Aug 11, 2019</div>
@@ -229,10 +229,10 @@
                                         </a>
                                     </div>
                                     <!--Photo-->
-                                    <div class="flex-2 has-background-image" data-background="https://via.placeholder.com/1600x900" data-demo-background="assets/img/demo/pages/posts/4.jpg">
+                                    <div class="flex-2 has-background-image" data-background="https://via.placeholder.com/1600x900" data-demo-background="../assets/img/demo/pages/posts/4.jpg">
                                         <div class="overlay"></div>
                                         <div class="image-owner">
-                                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="assets/img/vector/icons/logos/fastpizza.svg" alt="">
+                                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/vector/icons/logos/fastpizza.svg" alt="">
                                             <div class="name">Fast Pizza</div>
                                         </div>
                                         <div class="photo-time">Aug 09, 2019</div>
@@ -247,10 +247,10 @@
 
                                 <!--Grid Row-->
                                 <div class="image-row">
-                                    <div class="flex-1 has-background-image" data-background="https://via.placeholder.com/1600x900" data-demo-background="assets/img/demo/pages/posts/9.jpg">
+                                    <div class="flex-1 has-background-image" data-background="https://via.placeholder.com/1600x900" data-demo-background="../assets/img/demo/pages/posts/9.jpg">
                                         <div class="overlay"></div>
                                         <div class="image-owner">
-                                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="assets/img/vector/icons/logos/fastpizza.svg" alt="">
+                                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/vector/icons/logos/fastpizza.svg" alt="">
                                             <div class="name">Fast Pizza</div>
                                         </div>
                                         <div class="photo-time">Aug 06, 2019</div>
@@ -261,10 +261,10 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="flex-1 has-background-image" data-background="https://via.placeholder.com/1600x900" data-demo-background="assets/img/demo/pages/posts/10.jpg">
+                                    <div class="flex-1 has-background-image" data-background="https://via.placeholder.com/1600x900" data-demo-background="../assets/img/demo/pages/posts/10.jpg">
                                         <div class="overlay"></div>
                                         <div class="image-owner">
-                                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="assets/img/vector/icons/logos/fastpizza.svg" alt="">
+                                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/vector/icons/logos/fastpizza.svg" alt="">
                                             <div class="name">Fast Pizza</div>
                                         </div>
                                         <div class="photo-time">Aug 04, 2019</div>
@@ -275,10 +275,10 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="flex-1 has-background-image" data-background="https://via.placeholder.com/1600x900" data-demo-background="assets/img/demo/pages/posts/11.jpg">
+                                    <div class="flex-1 has-background-image" data-background="https://via.placeholder.com/1600x900" data-demo-background="../assets/img/demo/pages/posts/11.jpg">
                                         <div class="overlay"></div>
                                         <div class="image-owner">
-                                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="assets/img/vector/icons/logos/fastpizza.svg" alt="">
+                                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/vector/icons/logos/fastpizza.svg" alt="">
                                             <div class="name">Fast Pizza</div>
                                         </div>
                                         <div class="photo-time">Aug 02, 2019</div>
@@ -294,10 +294,10 @@
                                 <!--Grid Row-->
                                 <div class="image-row">
                                     <!--Photo-->
-                                    <div class="flex-2 has-background-image" data-background="https://via.placeholder.com/1600x900" data-demo-background="assets/img/demo/pages/posts/12.jpg">
+                                    <div class="flex-2 has-background-image" data-background="https://via.placeholder.com/1600x900" data-demo-background="../assets/img/demo/pages/posts/12.jpg">
                                         <div class="overlay"></div>
                                         <div class="image-owner">
-                                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="assets/img/vector/icons/logos/fastpizza.svg" alt="">
+                                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/vector/icons/logos/fastpizza.svg" alt="">
                                             <div class="name">Fast Pizza</div>
                                         </div>
                                         <div class="photo-time">Jul 29, 2019</div>
@@ -309,10 +309,10 @@
                                         </a>
                                     </div>
                                     <!--Photo-->
-                                    <div class="flex-1 has-background-image" data-background="https://via.placeholder.com/1600x900" data-demo-background="assets/img/demo/pages/posts/13.jpg">
+                                    <div class="flex-1 has-background-image" data-background="https://via.placeholder.com/1600x900" data-demo-background="../assets/img/demo/pages/posts/13.jpg">
                                         <div class="overlay"></div>
                                         <div class="image-owner">
-                                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="assets/img/vector/icons/logos/fastpizza.svg" alt="">
+                                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/vector/icons/logos/fastpizza.svg" alt="">
                                             <div class="name">Fast Pizza</div>
                                         </div>
                                         <div class="photo-time">Jul 26, 2019</div>
@@ -328,10 +328,10 @@
                                 <!--Grid Row-->
                                 <div class="image-row">
                                     <!--Photo-->
-                                    <div class="flex-2 has-background-image" data-background="https://via.placeholder.com/1600x900" data-demo-background="assets/img/demo/pages/posts/14.jpg">
+                                    <div class="flex-2 has-background-image" data-background="https://via.placeholder.com/1600x900" data-demo-background="../assets/img/demo/pages/posts/14.jpg">
                                         <div class="overlay"></div>
                                         <div class="image-owner">
-                                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="assets/img/vector/icons/logos/fastpizza.svg" alt="">
+                                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/vector/icons/logos/fastpizza.svg" alt="">
                                             <div class="name">Fast Pizza</div>
                                         </div>
                                         <div class="photo-time">Jul 24, 2019</div>
@@ -343,10 +343,10 @@
                                         </a>
                                     </div>
                                     <!--Photo-->
-                                    <div class="flex-3 has-background-image" data-background="https://via.placeholder.com/1600x900" data-demo-background="assets/img/demo/pages/posts/15.jpg">
+                                    <div class="flex-3 has-background-image" data-background="https://via.placeholder.com/1600x900" data-demo-background="../assets/img/demo/pages/posts/15.jpg">
                                         <div class="overlay"></div>
                                         <div class="image-owner">
-                                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="assets/img/vector/icons/logos/fastpizza.svg" alt="">
+                                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/vector/icons/logos/fastpizza.svg" alt="">
                                             <div class="name">Fast Pizza</div>
                                         </div>
                                         <div class="photo-time">Jul 23, 2019</div>
@@ -358,10 +358,10 @@
                                         </a>
                                     </div>
                                     <!--Photo-->
-                                    <div class="flex-2 has-background-image" data-background="https://via.placeholder.com/1600x900" data-demo-background="assets/img/demo/pages/posts/16.jpg">
+                                    <div class="flex-2 has-background-image" data-background="https://via.placeholder.com/1600x900" data-demo-background="../assets/img/demo/pages/posts/16.jpg">
                                         <div class="overlay"></div>
                                         <div class="image-owner">
-                                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="assets/img/vector/icons/logos/fastpizza.svg" alt="">
+                                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/vector/icons/logos/fastpizza.svg" alt="">
                                             <div class="name">Fast Pizza</div>
                                         </div>
                                         <div class="photo-time">Jul 21, 2019</div>
@@ -377,10 +377,10 @@
                                 <!--Grid Row-->
                                 <div class="image-row">
                                     <!--Photo-->
-                                    <div class="flex-2 has-background-image" data-background="https://via.placeholder.com/1600x900" data-demo-background="assets/img/demo/pages/posts/17.jpg">
+                                    <div class="flex-2 has-background-image" data-background="https://via.placeholder.com/1600x900" data-demo-background="../assets/img/demo/pages/posts/17.jpg">
                                         <div class="overlay"></div>
                                         <div class="image-owner">
-                                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="assets/img/vector/icons/logos/fastpizza.svg" alt="">
+                                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/vector/icons/logos/fastpizza.svg" alt="">
                                             <div class="name">Fast Pizza</div>
                                         </div>
                                         <div class="photo-time">Jul 19, 2019</div>
@@ -392,10 +392,10 @@
                                         </a>
                                     </div>
                                     <!--Photo-->
-                                    <div class="flex-1 has-background-image" data-background="https://via.placeholder.com/1600x900" data-demo-background="assets/img/demo/pages/posts/18.jpg">
+                                    <div class="flex-1 has-background-image" data-background="https://via.placeholder.com/1600x900" data-demo-background="../assets/img/demo/pages/posts/18.jpg">
                                         <div class="overlay"></div>
                                         <div class="image-owner">
-                                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="assets/img/vector/icons/logos/fastpizza.svg" alt="">
+                                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/vector/icons/logos/fastpizza.svg" alt="">
                                             <div class="name">Fast Pizza</div>
                                         </div>
                                         <div class="photo-time">Jul 19, 2019</div>
@@ -407,10 +407,10 @@
                                         </a>
                                     </div>
                                     <!--Photo-->
-                                    <div class="flex-1 has-background-image" data-background="https://via.placeholder.com/1600x900" data-demo-background="assets/img/demo/pages/posts/19.jpg">
+                                    <div class="flex-1 has-background-image" data-background="https://via.placeholder.com/1600x900" data-demo-background="../assets/img/demo/pages/posts/19.jpg">
                                         <div class="overlay"></div>
                                         <div class="image-owner">
-                                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="assets/img/vector/icons/logos/fastpizza.svg" alt="">
+                                            <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/vector/icons/logos/fastpizza.svg" alt="">
                                             <div class="name">Fast Pizza</div>
                                         </div>
                                         <div class="photo-time">Jul 17, 2019</div>
@@ -460,7 +460,7 @@
                                     <!-- Selection box -->
                                     <div class="selection-box modal-trigger" data-modal="upload-crop-cover-modal">
                                         <div class="box-content">
-                                            <img src="assets/img/illustrations/profile/upload-cover.svg" alt="">
+                                            <img src="../assets/img/illustrations/profile/upload-cover.svg" alt="">
                                             <div class="box-text">
                                                 <span>Upload</span>
                                                 <span>From your computer</span>
@@ -472,7 +472,7 @@
                                     <!-- Selection box -->
                                     <div class="selection-box modal-trigger" data-modal="user-photos-modal">
                                         <div class="box-content">
-                                            <img src="assets/img/illustrations/profile/change-cover.svg" alt="">
+                                            <img src="../assets/img/illustrations/profile/change-cover.svg" alt="">
                                             <div class="box-text">
                                                 <span>Choose</span>
                                                 <span>From your photos</span>
@@ -511,7 +511,7 @@
                                     <!-- Selection box -->
                                     <div class="selection-box modal-trigger" data-modal="upload-crop-profile-modal">
                                         <div class="box-content">
-                                            <img src="assets/img/illustrations/profile/change-profile.svg" alt="">
+                                            <img src="../assets/img/illustrations/profile/change-profile.svg" alt="">
                                             <div class="box-text">
                                                 <span>Upload</span>
                                                 <span>From your computer</span>
@@ -523,7 +523,7 @@
                                     <!-- Selection box -->
                                     <div class="selection-box modal-trigger" data-modal="user-photos-modal">
                                         <div class="box-content">
-                                            <img src="assets/img/illustrations/profile/upload-profile.svg" alt="">
+                                            <img src="../assets/img/illustrations/profile/upload-profile.svg" alt="">
                                             <div class="box-text">
                                                 <span>Choose</span>
                                                 <span>From your photos</span>
@@ -583,7 +583,7 @@
                                     <i data-feather="more-vertical"></i>
                                 </a>
                             </div>
-                            <img id="lightbox-image" src="https://via.placeholder.com/1600x900" data-demo-src="assets/img/demo/unsplash/3.jpg" alt="">
+                            <img id="lightbox-image" src="https://via.placeholder.com/1600x900" data-demo-src="../assets/img/demo/unsplash/3.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -593,7 +593,7 @@
                         <div class="loader is-loading"></div>
                     </div>
                     <div class="header">
-                        <img id="lightbox-avatar" src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/dan.jpg" alt="">
+                        <img id="lightbox-avatar" src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/dan.jpg" alt="">
                         <div class="user-meta">
                             <span id="lightbox-username">Dan Walker</span>
                             <span><small>2 hours ago</small></span>
@@ -693,7 +693,7 @@
                         <div class="media is-comment">
                             <figure class="media-left">
                                 <p class="image is-32x32">
-                                    <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/dan.jpg" alt="" data-user-popover="1">
+                                    <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/dan.jpg" alt="" data-user-popover="1">
                                 </p>
                             </figure>
                             <div class="media-content">
@@ -713,7 +713,7 @@
                         <div class="media is-comment is-nested">
                             <figure class="media-left">
                                 <p class="image is-32x32">
-                                    <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/david.jpg" alt="" data-user-popover="4">
+                                    <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/david.jpg" alt="" data-user-popover="4">
                                 </p>
                             </figure>
                             <div class="media-content">
@@ -733,7 +733,7 @@
                         <div class="media is-comment">
                             <figure class="media-left">
                                 <p class="image is-32x32">
-                                    <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/rolf.jpg" alt="" data-user-popover="17">
+                                    <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/rolf.jpg" alt="" data-user-popover="17">
                                 </p>
                             </figure>
                             <div class="media-content">
@@ -754,7 +754,7 @@
                         <div class="media is-comment is-nested">
                             <figure class="media-left">
                                 <p class="image is-32x32">
-                                    <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/elise.jpg" alt="" data-user-popover="6">
+                                    <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/elise.jpg" alt="" data-user-popover="6">
                                 </p>
                             </figure>
                             <div class="media-content">
@@ -774,7 +774,7 @@
                         <div class="media is-comment is-nested">
                             <figure class="media-left">
                                 <p class="image is-32x32">
-                                    <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/rolf.jpg" alt="" data-user-popover="17">
+                                    <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/rolf.jpg" alt="" data-user-popover="17">
                                 </p>
                             </figure>
                             <div class="media-content">
@@ -794,7 +794,7 @@
                         <div class="media is-comment is-nested">
                             <figure class="media-left">
                                 <p class="image is-32x32">
-                                    <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/elise.jpg" alt="" data-user-popover="6">
+                                    <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/elise.jpg" alt="" data-user-popover="6">
                                 </p>
                             </figure>
                             <div class="media-content">
@@ -814,7 +814,7 @@
                         <div class="media is-comment">
                             <figure class="media-left">
                                 <p class="image is-32x32">
-                                    <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/lana.jpeg" alt="" data-user-popover="14">
+                                    <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/lana.jpeg" alt="" data-user-popover="14">
                                 </p>
                             </figure>
                             <div class="media-content">
@@ -836,7 +836,7 @@
 
                     <div class="comment-controls">
                         <div class="controls-inner">
-                            <img src="https://via.placeholder.com/300x300" data-demo-src="assets/img/avatars/jenna.png" alt="">
+                            <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/avatars/jenna.png" alt="">
                             <div class="control">
                                 <textarea class="textarea comment-textarea is-rounded" rows="1"></textarea>
                             </div>
@@ -869,7 +869,7 @@
                 <div class="card-body has-text-centered">
 
                     <div class="image-wrap">
-                        <img src="assets/img/vector/logo/friendkit.svg" alt="">
+                        <img src="../assets/img/vector/logo/friendkit.svg" alt="">
                     </div>
 
                     <h3>That's all folks!</h3>
@@ -883,32 +883,32 @@
         </div>
     </div>
     <!-- Concatenated js plugins and jQuery -->
-    <script src="assets/js/app.js"></script>
-    <script src="assets/data/tipuedrop_content.js"></script>
+    <script src="../assets/js/app.js"></script>
+    <script src="../assets/data/tipuedrop_content.js"></script>
 
     <!-- Core js -->
-    <script src="assets/js/global.js"></script>
+    <script src="../assets/js/global.js"></script>
 
     <!-- Navigation options js -->
-    <script src="assets/js/navbar-v1.js"></script>
-    <script src="assets/js/navbar-v2.js"></script>
-    <script src="assets/js/navbar-mobile.js"></script>
-    <script src="assets/js/navbar-options.js"></script>
-    <script src="assets/js/sidebar-v1.js"></script>
+    <script src="../assets/js/navbar-v1.js"></script>
+    <script src="../assets/js/navbar-v2.js"></script>
+    <script src="../assets/js/navbar-mobile.js"></script>
+    <script src="../assets/js/navbar-options.js"></script>
+    <script src="../assets/js/sidebar-v1.js"></script>
 
     <!-- Core instance js -->
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/chat.js"></script>
-    <script src="assets/js/touch.js"></script>
-    <script src="assets/js/tour.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/chat.js"></script>
+    <script src="../assets/js/touch.js"></script>
+    <script src="../assets/js/tour.js"></script>
 
     <!-- Components js -->
-    <script src="assets/js/explorer.js"></script>
-    <script src="assets/js/widgets.js"></script>
-    <script src="assets/js/modal-uploader.js"></script>
-    <script src="assets/js/popovers-users.js"></script>
-    <script src="assets/js/popovers-pages.js"></script>
-    <script src="assets/js/lightbox.js"></script>
+    <script src="../assets/js/explorer.js"></script>
+    <script src="../assets/js/widgets.js"></script>
+    <script src="../assets/js/modal-uploader.js"></script>
+    <script src="../assets/js/popovers-users.js"></script>
+    <script src="../assets/js/popovers-pages.js"></script>
+    <script src="../assets/js/lightbox.js"></script>
 
     <!-- Landing page js -->
 
@@ -917,7 +917,7 @@
     <!-- Feed pages js -->
 
     <!-- profile js -->
-    <script src="assets/js/profile.js"></script>
+    <script src="../assets/js/profile.js"></script>
 
     <!-- stories js -->
 

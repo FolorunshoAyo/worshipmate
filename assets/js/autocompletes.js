@@ -5,7 +5,7 @@ $(document).ready((function() {
         var a = ""
           , e = ""
           , t = {
-            url: "https://localhost/worshipmate/assets/data/api/users/user-autocpl.json",
+            url: "../assets/data/api/users/user-autocpl.json",
             getValue: "name",
             template: {
                 type: "custom",
@@ -54,7 +54,7 @@ $(document).ready((function() {
         a = "",
         e = "";
         var s = {
-            url: "https://localhost/worshipmate/assets/data/api/users/user-autocpl.json",
+            url: "../assets/data/api/users/user-autocpl.json",
             getValue: "name",
             template: {
                 type: "custom",
@@ -95,7 +95,7 @@ $(document).ready((function() {
         e = "";
         var n = feather.icons.x.toSvg()
           , o = {
-            url: "https://localhost/worshipmate/assets/data/api/users/user-autocpl.json",
+            url: "../assets/data/api/users/user-autocpl.json",
             getValue: "name",
             template: {
                 type: "custom",
@@ -136,7 +136,7 @@ $(document).ready((function() {
         a = "",
         e = "";
         var l = {
-            url: "https://localhost/worshipmate/assets/data/api/users/user-autocpl.json",
+            url: "../assets/data/api/users/user-autocpl.json",
             getValue: "name",
             template: {
                 type: "custom",
@@ -166,7 +166,7 @@ $(document).ready((function() {
         a = "",
         e = "";
         var c = {
-            url: "https://localhost/worshipmate/assets/data/api/groups/groups-autocpl.json",
+            url: "../assets/data/api/groups/groups-autocpl.json",
             getValue: "name",
             template: {
                 type: "custom",
@@ -196,7 +196,7 @@ $(document).ready((function() {
         a = "",
         e = "";
         var p = {
-            url: "https://localhost/worshipmate/assets/data/api/places/places-autocpl.json",
+            url: "../assets/data/api/places/places-autocpl.json",
             getValue: "name",
             template: {
                 type: "custom",
@@ -225,7 +225,7 @@ $(document).ready((function() {
     if ($("#activities-autocpl").length) {
         a = "";
         var r = {
-            url: "https://localhost/worshipmate/assets/data/api/activities/activity-autocpl.json",
+            url: "../assets/data/api/activities/activity-autocpl.json",
             getValue: "name",
             template: {
                 type: "custom",
@@ -268,7 +268,7 @@ $(document).ready((function() {
     if ($("#mood-autocpl").length) {
         a = "";
         var d = {
-            url: "https://localhost/worshipmate/assets/data/api/activities/mood/mood-autocpl.json",
+            url: "../assets/data/api/activities/mood/mood-autocpl.json",
             getValue: "name",
             template: {
                 type: "custom",
@@ -311,7 +311,7 @@ $(document).ready((function() {
     if ($("#drinking-autocpl").length) {
         a = "";
         var m = {
-            url: "https://localhost/worshipmate/assets/data/api/activities/drinking/drinking-autocpl.json",
+            url: "../assets/data/api/activities/drinking/drinking-autocpl.json",
             getValue: "name",
             template: {
                 type: "custom",
@@ -354,7 +354,7 @@ $(document).ready((function() {
     if ($("#eating-autocpl").length) {
         a = "";
         var u = {
-            url: "https://localhost/worshipmate/assets/data/api/activities/eating/eating-autocpl.json",
+            url: "../assets/data/api/activities/eating/eating-autocpl.json",
             getValue: "name",
             template: {
                 type: "custom",
@@ -397,7 +397,7 @@ $(document).ready((function() {
     if ($("#reading-autocpl").length) {
         a = "";
         var v = {
-            url: "https://localhost/worshipmate/assets/data/api/activities/reading/reading-autocpl.json",
+            url: "../assets/data/api/activities/reading/reading-autocpl.json",
             getValue: "name",
             template: {
                 type: "custom",
@@ -441,7 +441,7 @@ $(document).ready((function() {
     if ($("#watching-autocpl").length) {
         a = "";
         var g = {
-            url: "https://localhost/worshipmate/assets/data/api/activities/watching/watching-autocpl.json",
+            url: "../assets/data/api/activities/watching/watching-autocpl.json",
             getValue: "name",
             template: {
                 type: "custom",
@@ -485,7 +485,7 @@ $(document).ready((function() {
     if ($("#travel-autocpl").length) {
         a = "";
         var h = {
-            url: "https://localhost/worshipmate/assets/data/api/activities/travel/travel-autocpl.json",
+            url: "../assets/data/api/activities/travel/travel-autocpl.json",
             getValue: "name",
             template: {
                 type: "custom",

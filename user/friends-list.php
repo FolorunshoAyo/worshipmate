@@ -15,7 +15,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <title> Worshipmate | Friends</title>
-    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png" />
 
     <?php
     include("../views/embeds/head-embed.php");
@@ -57,7 +57,7 @@
                 <div class="card-row">
                     <!-- /partials/pages/friends/friend-lists/all-friends.html -->
                     <?php
-                        include($base_url . "views/pages/friends/friend-lists/all-friends.php");
+                        include("../views/pages/friends/friend-lists/all-friends.php");
                     ?>
                 </div>
             </div>
@@ -70,7 +70,7 @@
                 <div class="card-row">
                     <!-- /partials/pages/friends/friend-lists/starred-friends.html -->
                     <?php
-                        include($base_url . "views/pages/friends/friend-lists/starred-friends.php");
+                        include("../views/pages/friends/friend-lists/starred-friends.php");
                     ?>
                 </div>
             </div>
@@ -83,7 +83,7 @@
                 <div class="card-row">
                     <!-- /partials/pages/friends/friend-lists/new-friends.html -->
                     <?php
-                        include($base_url . "views/pages/friends/friend-lists/new-friends.php");
+                        include("../views/pages/friends/friend-lists/new-friends.php");
                     ?>
                 </div>
             </div>
@@ -113,7 +113,7 @@
                 <div class="card-body has-text-centered">
 
                     <div class="image-wrap">
-                        <img src="assets/img/vector/logo/friendkit.svg" alt="">
+                        <img src="../assets/img/vector/logo/friendkit.svg" alt="">
                     </div>
 
                     <h3>That's all folks!</h3>
@@ -127,32 +127,32 @@
         </div>
     </div>
     <!-- Concatenated js plugins and jQuery -->
-    <script src="assets/js/app.js"></script>
-    <script src="assets/data/tipuedrop_content.js"></script>
+    <script src="../assets/js/app.js"></script>
+    <script src="../assets/data/tipuedrop_content.js"></script>
 
     <!-- Core js -->
-    <script src="assets/js/global.js"></script>
+    <script src="../assets/js/global.js"></script>
 
     <!-- Navigation options js -->
-    <script src="assets/js/navbar-v1.js"></script>
-    <script src="assets/js/navbar-v2.js"></script>
-    <script src="assets/js/navbar-mobile.js"></script>
-    <script src="assets/js/navbar-options.js"></script>
-    <script src="assets/js/sidebar-v1.js"></script>
+    <script src="../assets/js/navbar-v1.js"></script>
+    <script src="../assets/js/navbar-v2.js"></script>
+    <script src="../assets/js/navbar-mobile.js"></script>
+    <script src="../assets/js/navbar-options.js"></script>
+    <script src="../assets/js/sidebar-v1.js"></script>
 
     <!-- Core instance js -->
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/chat.js"></script>
-    <script src="assets/js/touch.js"></script>
-    <script src="assets/js/tour.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/chat.js"></script>
+    <script src="../assets/js/touch.js"></script>
+    <script src="../assets/js/tour.js"></script>
 
     <!-- Components js -->
-    <script src="assets/js/explorer.js"></script>
-    <script src="assets/js/widgets.js"></script>
-    <script src="assets/js/modal-uploader.js"></script>
-    <script src="assets/js/popovers-users.js"></script>
-    <script src="assets/js/popovers-pages.js"></script>
-    <script src="assets/js/lightbox.js"></script>
+    <script src="../assets/js/explorer.js"></script>
+    <script src="../assets/js/widgets.js"></script>
+    <script src="../assets/js/modal-uploader.js"></script>
+    <script src="../assets/js/popovers-users.js"></script>
+    <script src="../assets/js/popovers-pages.js"></script>
+    <script src="../assets/js/lightbox.js"></script>
 
     <!-- Landing page js -->
 
@@ -165,7 +165,7 @@
     <!-- stories js -->
 
     <!-- friends js -->
-    <script src="assets/js/friends.js"></script>
+    <script src="../assets/js/friends.js"></script>
 
     <!-- questions js -->
 

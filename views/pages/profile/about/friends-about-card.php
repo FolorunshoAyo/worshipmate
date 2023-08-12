@@ -58,12 +58,12 @@
         <div class="columns friends-columns is-multiline">
             <!-- Friend -->
             <?php
-            include($base_url . "views/pages/profile/about/friend-small-card.php");
+            include("../views/pages/profile/about/friend-small-card.php");
             ?>
             <!-- Friend -->
             <div class="column is-6">
                 <div class="friend-small-card">
-                    <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/mike.jpg" data-user-popover="12" alt="">
+                    <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/mike.jpg" data-user-popover="12" alt="">
                     <div class="meta">
                         <span>Mike Lasalle</span>
                         <span>91 Friends</span>
@@ -113,7 +113,7 @@
             <!-- Friend -->
             <div class="column is-6">
                 <div class="friend-small-card">
-                    <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/stella.jpg" data-user-popover="2" alt="">
+                    <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/stella.jpg" data-user-popover="2" alt="">
                     <div class="meta">
                         <span>Stella Bergmann</span>
                         <span>547 Friends</span>
@@ -163,7 +163,7 @@
             <!-- Friend -->
             <div class="column is-6">
                 <div class="friend-small-card">
-                    <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/david.jpg" data-user-popover="4" alt="">
+                    <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/david.jpg" data-user-popover="4" alt="">
                     <div class="meta">
                         <span>David Kim</span>
                         <span>264 Friends</span>
@@ -213,7 +213,7 @@
             <!-- Friend -->
             <div class="column is-6">
                 <div class="friend-small-card">
-                    <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/elise.jpg" data-user-popover="6" alt="">
+                    <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/elise.jpg" data-user-popover="6" alt="">
                     <div class="meta">
                         <span>Elise Walker</span>
                         <span>321 Friends</span>
@@ -263,7 +263,7 @@
             <!-- Friend -->
             <div class="column is-6">
                 <div class="friend-small-card">
-                    <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/avatars/milly.jpg" data-user-popover="7" alt="">
+                    <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/milly.jpg" data-user-popover="7" alt="">
                     <div class="meta">
                         <span>Milly Augustine</span>
                         <span>264 Friends</span>

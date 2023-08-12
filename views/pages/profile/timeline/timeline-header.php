@@ -28,7 +28,7 @@
             </a>
         </div>
         <div class="pop-button is-far-right has-tooltip" data-placement="right" data-title="Send message">
-            <a href="messages-inbox.html" class="inner">
+            <a href="#" class="inner">
                 <i data-feather="mail"></i>
             </a>
         </div>
@@ -47,7 +47,7 @@
         </div>
         <div class="dropdown-menu" role="menu">
             <div class="dropdown-content">
-                <a href="/profile-main.html" class="dropdown-item">
+                <a href="<?= $base_url ?>user/profile-main" class="dropdown-item">
                     <div class="media">
                         <i data-feather="activity"></i>
                         <div class="media-content">
@@ -56,7 +56,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="/profile-about.html" class="dropdown-item">
+                <a href="<?= $base_url ?>user/profile-about" class="dropdown-item">
                     <div class="media">
                         <i data-feather="align-right"></i>
                         <div class="media-content">
@@ -65,7 +65,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="/profile-friends.html" class="dropdown-item">
+                <a href="<?= $base_url ?>user/profile-friends" class="dropdown-item">
                     <div class="media">
                         <i data-feather="heart"></i>
                         <div class="media-content">
@@ -74,7 +74,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="/profile-photos.html" class="dropdown-item">
+                <a href="<?= $base_url ?>user/profile-photos" class="dropdown-item">
                     <div class="media">
                         <i data-feather="image"></i>
                         <div class="media-content">
@@ -90,12 +90,12 @@
 
 <div class="profile-menu is-hidden-mobile">
     <div class="menu-start">
-        <a href="profile-main.html" class="button has-min-width">Timeline</a>
-        <a href="profile-about.html" class="button has-min-width">About</a>
+        <a href="<?= $base_url ?>user/profile-main" class="button has-min-width">Timeline</a>
+        <a href="<?= $base_url ?>user/profile-about" class="button has-min-width">About</a>
     </div>
     <div class="menu-end">
-        <a id="profile-friends-link" href="profile-friends.html" class="button has-min-width">Friends</a>
-        <a href="profile-photos.html" class="button has-min-width">Photos</a>
+        <a id="profile-friends-link" href="<?= $base_url ?>user/profile-friends" class="button has-min-width">Friends</a>
+        <a href="<?= $base_url ?>user/profile-photos" class="button has-min-width">Photos</a>
     </div>
 </div>
 
