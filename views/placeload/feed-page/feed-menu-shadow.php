@@ -13,6 +13,15 @@
                 </div>
             </div>
 
+            <div class="placeload is-bold questions-menu-placeload" style="margin-top: 30px">
+                <div class="inner-wrap">
+                    <div class="content-shape loads"></div>
+                    <div class="content-shape loads"></div>
+                    <div class="content-shape loads"></div>
+                    <div class="content-shape loads"></div>
+                </div>
+            </div>
+
         </div>
 
         <div class="column is-6">

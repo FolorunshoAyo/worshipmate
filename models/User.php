@@ -21,7 +21,7 @@ class User
             $stmt->bindValue(':email', $email, PDO::PARAM_STR);
             $stmt->bindValue(':password', $password, PDO::PARAM_STR);
             $stmt->bindValue(':date_of_birth', $dateOfBirth, PDO::PARAM_STR);
-            $stmt->bindValue(':gender', $gender, PDO::PARAM_STR_CHAR);
+            $stmt->bindValue(':gender', $gender, PDO::PARAM_STR);
 
             $stmt->execute();
 
