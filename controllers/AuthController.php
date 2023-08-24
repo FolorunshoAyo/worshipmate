@@ -1,6 +1,6 @@
 <?php
 // UserController.php
-class UserController {
+class AuthController {
     function checkUserSession($page = ""){
         global $base_url, $userModel;
 
@@ -182,6 +182,7 @@ class UserController {
             $lastName = $_POST['last_name'];
             $email = $_POST['email'];
             $dob = $_POST['dob'];
+            $gender = $_POST['gender'];
             $password = $_POST['pwd'];
             $confirmPassword = $_POST['cpwd'];
 
@@ -208,6 +209,10 @@ class UserController {
                 $errors[] = "Invalid date of birth format. Use YYYY-MM-DD.";
             }
 
+            if (empty($dob)) {
+                $errors[] = "Gender is required.";
+            }
+
             if (empty($password)) {
                 $errors[] = "Password is required.";
             } elseif (strlen($password) < 6) {
@@ -224,7 +229,9 @@ class UserController {
                     return array("success" => 0, "error_message" => "Email already exists. Please use a different email or try logging in.");
                 }
 
-                $userRegistered = $userModel->registerUser($firstName, $lastName, $email, password_hash($password, PASSWORD_BCRYPT), $dob);
+                $gender = $gender === "male"? "M" : "F";
+                
+                $userRegistered = $userModel->registerUser($firstName, $lastName, $email, password_hash($password, PASSWORD_BCRYPT), $dob, $gender);
 
                 if ($userRegistered) {
                     // STORE USER SESSION
@@ -349,6 +356,6 @@ class UserController {
 }
 
 // Instantiate the UserController
-$userController = new UserController();
+$authController = new AuthController();
 
 ?>

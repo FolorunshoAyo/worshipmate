@@ -2,7 +2,7 @@
     require_once dirname(__DIR__) . '/core/Database.php';
     require_once dirname(__DIR__) . '/models/User.php';
     require_once dirname(__DIR__) . '/models/TimedCodes.php';
-    require_once dirname(__DIR__) . '/controllers/UserController.php';
+    require_once dirname(__DIR__) . '/controllers/AuthController.php';
 
     // RESET LINK INCLUSIVE
     if(isset($_POST['pwd']) && !empty($_POST['pwd']) && isset($_POST['cpwd']) && !empty($_POST['cpwd']) && (isset($_POST['rid']) && !empty($_POST['rid']))){

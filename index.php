@@ -7,12 +7,10 @@
   require_once __DIR__ . '/controllers/UserController.php';
 
   // perform user login status check
-  $userController = new UserController();
-
-  if($userController->hasRememberMeToken()){
-    $userController->validateRememberMeToken($_COOKIE['remember_me_token']);
+  if($authController->hasRememberMeToken()){
+    $authController->validateRememberMeToken($_COOKIE['remember_me_token']);
   }else{
-    $userController->checkUserSession("start");
+    $authController->checkUserSession("start");
   }
 
 

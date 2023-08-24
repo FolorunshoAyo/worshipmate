@@ -3,12 +3,12 @@
   require_once __DIR__ . '/core/Database.php';
   require_once __DIR__ . '/models/User.php';
   require_once __DIR__ . '/models/RememberMeToken.php';
-  require_once __DIR__ . '/controllers/UserController.php';
+  require_once __DIR__ . '/controllers/AuthController.php';
 
-    if($userController->hasRememberMeToken()){
-        $userController->validateRememberMeToken($_COOKIE['remember_me_token']);
+    if($authController->hasRememberMeToken()){
+        $authController->validateRememberMeToken($_COOKIE['remember_me_token']);
     }else{
-        $userController->checkUserSession("signin");
+        $authController->checkUserSession("signin");
     }
   
 ?>

@@ -1,19 +1,15 @@
 <?php
 // signup.php
+require_once __DIR__ . '/core/Database.php';
+require_once __DIR__ . '/models/User.php';
+require_once __DIR__ . '/controllers/AuthController.php';
 
-  require_once __DIR__ . '/core/Database.php';
-  require_once __DIR__ . '/models/User.php';
-  require_once __DIR__ . '/controllers/UserController.php';
+if ($authController->hasRememberMeToken()) {
+  $authController->validateRememberMeToken($_COOKIE['remember_me_token']);
+} else {
+  $authController->checkUserSession("signup");
+}
 
-  // perform user login status check
-  $userController = new UserController();
-
-  if($userController->hasRememberMeToken()){
-    $userController->validateRememberMeToken($_COOKIE['remember_me_token']);
-  }else{
-    $userController->checkUserSession("signup");
-  }
-  
 
 ?>
 <!DOCTYPE html>
@@ -115,6 +111,27 @@
                     </div>
                     <div class="column is-12">
                       <div class="field">
+                        <label>Gender</label>
+                        <div id="gender-select">
+                          <div class="is-inline-block mr-2">
+                            <label for="gender-select-1" class="material-radio ">
+                              <input id="gender-select-1" type="radio" name="gender" value="male">
+                              <span class="dot"></span>
+                              <span class="radio-label">Male</span>
+                            </label>
+                          </div>
+                          <div class="is-inline-block">
+                            <label for="gender-select-2" class="material-radio">
+                              <input id="gender-select-2" type="radio" name="gender" value="female">
+                              <span class="dot"></span>
+                              <span class="radio-label">Female</span>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="column is-12">
+                      <div class="field">
                         <label for="pwd">Password</label>
                         <div class="control has-validation">
                           <input id="pwd" type="password" name="pwd" required class="input" placeholder="Enter your password" />
@@ -177,7 +194,7 @@
   <!-- Concatenated js plugins and jQuery -->
   <script src="assets/js/app.js"></script>
   <script src="assets/data/tipuedrop_content.js"></script>
-  
+
   <!-- Plugins -->
   <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
 
@@ -250,15 +267,16 @@
           rule: "email",
         },
       ])
-      .addField("#pwd", [
-      {
-        rule: "customRegexp",
-        value: /^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[\W_]).{8,}$/,
-        errorMessage: "8+ characters, at least 1 uppercase, 1 lowercase, 1 number, 1 special character."
-      },
-      {
-        rule: "required"
-      }])
+      .addRequiredGroup('#gender-select', "Select your gender")
+      .addField("#pwd", [{
+          rule: "customRegexp",
+          value: /^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[\W_]).{8,}$/,
+          errorMessage: "8+ characters, at least 1 uppercase, 1 lowercase, 1 number, 1 special character."
+        },
+        {
+          rule: "required"
+        }
+      ])
       .addField("#cpwd", [{
           rule: "required",
         },

@@ -6,9 +6,7 @@ require_once __DIR__ . '/models/User.php';
 require_once __DIR__ . '/controllers/UserController.php';
 
   // perform user session check
-  $userController = new UserController();
-
-  $userController->checkUserSession("forgot-password");
+  $authController->checkUserSession("forgot-password");
 
 ?>
 <!DOCTYPE html>

@@ -9,10 +9,10 @@ class User
         $this->db = $db;
     }
 
-    public function registerUser($first_name, $last_name, $email, $password, $dateOfBirth)
+    public function registerUser($first_name, $last_name, $email, $password, $dateOfBirth, $gender)
     {
-        $query = "INSERT INTO users (first_name, last_name, email, password, date_of_birth)
-                  VALUES (:first_name, :last_name, :email, :password, :date_of_birth)";
+        $query = "INSERT INTO users (first_name, last_name, email, password, date_of_birth, gender)
+                  VALUES (:first_name, :last_name, :email, :password, :date_of_birth, :gender)";
         
         try{
             $stmt = $this->db->prepare($query);
@@ -21,6 +21,7 @@ class User
             $stmt->bindValue(':email', $email, PDO::PARAM_STR);
             $stmt->bindValue(':password', $password, PDO::PARAM_STR);
             $stmt->bindValue(':date_of_birth', $dateOfBirth, PDO::PARAM_STR);
+            $stmt->bindValue(':gender', $gender, PDO::PARAM_STR_CHAR);
 
             $stmt->execute();
 

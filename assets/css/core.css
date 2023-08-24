@@ -41263,7 +41263,7 @@ body.is-dark .mapboxgl-ctrl-geocoder .mapboxgl-ctrl-geocoder--suggestion-address
 }
 
 .login-container.is-centered {
-    padding-top: 3rem
+    padding-top: 3rem;
 }
 
 .login-container.is-centered .login-form {

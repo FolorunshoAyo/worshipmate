@@ -3,9 +3,9 @@
 
 require_once __DIR__ . '/core/Database.php';
 require_once __DIR__ . '/models/User.php';
-require_once __DIR__ . '/controllers/UserController.php';
+require_once __DIR__ . '/controllers/AuthController.php';
 
-  $userController->checkUserSession("verify-reset-code");
+  $authController->checkUserSession("verify-reset-code");
 
 ?>
 <!DOCTYPE html>

@@ -2,20 +2,17 @@
     require_once dirname(__DIR__) . '/core/Database.php';
     require_once dirname(__DIR__) . '/models/User.php';
     require_once dirname(__DIR__) . '/models/TimedCodes.php';
-    require_once dirname(__DIR__) . '/controllers/UserController.php';
+    require_once dirname(__DIR__) . '/controllers/AuthController.php';
 
     if(isset($_POST['email']) && !empty($_POST['email'])){
         $email = $_POST['email'];
-
-        // Instantiate the UserController
-        $userController = new UserController();
     
         // RETRIEVE USER DETAILS BY EMAIL
         $user = $userModel->getUserByEmail($email);
         
         if($user){
             // SEND PASSWORD RESET CODE
-            $code = $userController->sendPasswordResetCode($email);
+            $code = $authController->sendPasswordResetCode($email);
 
             if($code){
                 $_SESSION['email'] = $email;

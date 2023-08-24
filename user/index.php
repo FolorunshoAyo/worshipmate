@@ -1,9 +1,9 @@
 <?php
     require_once dirname(__DIR__) . '/core/Database.php';
     require_once dirname(__DIR__) . '/models/User.php';
-    require_once dirname(__DIR__) . '/controllers/UserController.php';
+    require_once dirname(__DIR__) . '/controllers/AuthController.php';
 
-    $userController->checkUserSession();
+    $authController->checkUserSession();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -19,6 +19,9 @@
     <?php
         include_once("../views/embeds/head-embed.php");
     ?>
+    <style>
+        
+    </style>
 </head>
 
 <body>

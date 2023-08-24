@@ -4,11 +4,11 @@
 require_once __DIR__ . '/core/Database.php';
 require_once __DIR__ . '/models/User.php';
 require_once __DIR__ . '/models/TimedCodes.php';
-require_once __DIR__ . '/controllers/UserController.php';
+require_once __DIR__ . '/controllers/AuthController.php';
 
-  $userController->checkResetLink();
+  $authController->checkResetLink();
 
-  $userController->checkUserSession("reset-password");
+  $authController->checkUserSession("reset-password");
 ?>
 <!DOCTYPE html>
 <html lang="en">
