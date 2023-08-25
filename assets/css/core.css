@@ -1,6 +1,27 @@
 /*!core.scss | Friendkit | © Css Ninja. 2020-2021*/
 /*!_colors.scss | Friendkit | © Css Ninja. 2020-2021*/
 /*!bulma.io v0.9.4 | MIT License | github.com/jgthms/bulma*/
+
+/* width */
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+*::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+*::-webkit-scrollbar-thumb {
+  background: #5596e6;
+}
+
+/* Handle on hover */
+*::-webkit-scrollbar-thumb:hover {
+  background: #3d70b2;
+}
+
 .pagination-previous,.pagination-next,.pagination-link,.pagination-ellipsis,.file-cta,.file-name,.select select,.textarea,.input,.button {
     -moz-appearance: none;
     -webkit-appearance: none;

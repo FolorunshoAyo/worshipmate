@@ -20,11 +20,11 @@ $authController->checkUserSession();
     include_once("../views/embeds/head-embed.php");
     ?>
     <style>
-        .suggested-groups-container{
+        .suggested-groups-container {
             margin-top: 10px;
         }
 
-        .suggested-groups-container h2{
+        .suggested-groups-container h2 {
             padding: 5px 10px;
             margin-bottom: 10px;
             font-size: .9rem;
@@ -33,39 +33,39 @@ $authController->checkUserSession();
             border-left: 1px solid #5596e6;
         }
 
-        .suggested-groups-container{
+        .suggested-groups-container {
             padding-right: 30px;
         }
 
-        .suggested-groups-container .group-block:not(:last-child){
+        .suggested-groups-container .group-block:not(:last-child) {
             margin-bottom: 10px;
         }
 
-        .suggested-groups-container .group-block .group-info{
+        .suggested-groups-container .group-block .group-info {
             display: flex;
             align-items: center;
         }
 
-        .suggested-groups-container .group-block .group-info .group-image-container{
+        .suggested-groups-container .group-block .group-info .group-image-container {
             flex: 0 0 40px;
         }
 
-        .suggested-groups-container .group-block .group-info .group-image-container img{
+        .suggested-groups-container .group-block .group-info .group-image-container img {
             width: 100%;
             height: 40px;
             border-radius: 50%;
         }
 
-        .suggested-groups-container .group-block .group-info .group-meta{
+        .suggested-groups-container .group-block .group-info .group-meta {
             font-size: .8rem;
             color: #757a91;
             margin-left: 10px;
             flex: 1;
         }
 
-        .suggested-groups-container .group-block .group-members{
+        .suggested-groups-container .group-block .group-members {
             font-size: 12px;
-            font-family: roboto,sans-serif;
+            font-family: roboto, sans-serif;
             font-weight: 500;
             margin-left: 5px;
         }
@@ -95,14 +95,14 @@ $authController->checkUserSession();
         }
 
         .explorer-menu-list li a .img-container {
-            flex: 0 0 60px;
-            height: 60px;
+            flex: 0 0 40px;
+            height: 40px;
             transition: all .3s;
         }
 
         .explorer-menu-list li a .img-container img {
             max-width: 100%;
-            height: 60px;
+            height: 40px;
         }
 
         .explorer-menu-list li a p {
@@ -131,7 +131,8 @@ $authController->checkUserSession();
             right: 0px;
         }
 
-        #activity-feed .columns .column.is-3:last-child .scrollable-content
+        #activity-feed .columns .column.is-3:last-child .scrollable-content,
+        #activity-feed .columns .column.is-3:first-child .scrollable-content,
         #shadow-dom .columns .column.is-3:last-child .scrollable-content {
             height: 100vh;
             overflow: auto;
@@ -141,70 +142,72 @@ $authController->checkUserSession();
             margin-bottom: 100px;
         }
 
-        body.is-dark .suggested-groups-container h2{
-            color: #fff;   
+        body.is-dark .suggested-groups-container h2 {
+            color: #fff;
         }
 
-        body.is-dark .card.is-post .card-heading .user-block .user-info span{
+        body.is-dark .card.is-post .card-heading .user-block .user-info span {
             font-size: .8rem;
         }
 
-        .engagement-wrapper{
+        .engagement-wrapper {
             position: absolute;
             bottom: -18px;
             right: 0;
         }
 
-        .engagement-wrapper a{
-            box-shadow: 0 14px 26px -12px rgba(85,150,230,.42),0 4px 23px 0 rgba(0,0,0,.12),0 8px 10px -5px rgba(85,150,230,.2);
+        .engagement-wrapper a {
+            box-shadow: 0 14px 26px -12px rgba(85, 150, 230, .42), 0 4px 23px 0 rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(85, 150, 230, .2);
             color: #fff;
             display: flex;
-            background-color: #6ba4e9; 
+            background-color: #6ba4e9;
             border-radius: 10px;
             padding: 0.8rem 10px;
             align-items: center;
             font-size: 1rem;
         }
 
-        .engagement-wrapper a svg{
+        .engagement-wrapper a svg {
             width: 18px;
             height: 18px;
             transition: all .3s;
             margin-right: 10px;
         }
 
-        .engagement-wrapper a:hover{
+        .engagement-wrapper a:hover {
             color: #8ab7ee;
         }
 
-        .engagement-wrapper a:hover svg{
+        .engagement-wrapper a:hover svg {
             stroke: #fff;
         }
 
-        .sponsored-footer-wrapper{
+        .sponsored-footer-wrapper {
             display: flex;
             align-items: center;
             color: #888da8;
         }
 
-        .sponsored-footer-wrapper svg{
+        .sponsored-footer-wrapper svg {
             height: 18px;
             width: 18px;
             stroke: #888da8;
         }
 
-        .sponsored-footer-wrapper span{
+        .sponsored-footer-wrapper span {
             margin: 0 5px;
         }
 
         @media screen and (max-width: 768px) {
+
             #activity-feed .columns .column.is-3,
-            #shadow-dom .columns .column.is-3{
+            #shadow-dom .columns .column.is-3 {
                 position: static;
             }
 
             #activity-feed .columns .column.is-3:last-child .scrollable-content,
-            #shadow-dom .columns .column.is-3:last-child .scrollable-content{
+            #activity-feed .columns .column.is-3:first-child .scrollable-content
+            #shadow-dom .columns .column.is-3:last-child .scrollable-content {
                 height: auto;
             }
         }
@@ -218,7 +221,7 @@ $authController->checkUserSession();
     <div class="app-overlay"></div>
 
     <?php
-        include "../views/shared/header.php";
+    include "../views/shared/header.php";
     ?>
     <div class="view-wrapper">
 
@@ -234,30 +237,31 @@ $authController->checkUserSession();
                 <div class="columns">
                     <!-- Left side column -->
                     <div class="column is-3 is-hidden-mobile">
-                        <!-- Feed menu -->
-                        <div class="feed-menu-v1">
-                            <ul class="main-menu">
-                                <li class="is-active">
-                                    <a>
-                                        <i data-feather="activity"></i>
-                                        <span>Feed</span>
-                                        <span class="close-icon">
-                                            <i data-feather="chevron-right"></i>
-                                        </span>
-                                    </a>
-                                    <ul class="submenu">
-                                        <li class="is-subactive">
-                                            <a>Trending <span class="tag">4</span></a>
-                                        </li>
-                                        <li>
-                                            <a>Popular</a>
-                                        </li>
-                                        <li>
-                                            <a>Following</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <!-- <li>
+                        <div class="scrollable-content">
+                            <!-- Feed menu -->
+                            <div class="feed-menu-v1">
+                                <ul class="main-menu">
+                                    <li class="is-active">
+                                        <a>
+                                            <i data-feather="activity"></i>
+                                            <span>Feed</span>
+                                            <span class="close-icon">
+                                                <i data-feather="chevron-right"></i>
+                                            </span>
+                                        </a>
+                                        <ul class="submenu">
+                                            <li class="is-subactive">
+                                                <a>Trending <span class="tag">4</span></a>
+                                            </li>
+                                            <li>
+                                                <a>Popular</a>
+                                            </li>
+                                            <li>
+                                                <a>Following</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- <li>
                                     <a>
                                         <i data-feather="help-circle"></i>
                                         <span>Questions</span>
@@ -337,83 +341,84 @@ $authController->checkUserSession();
                                         </li>
                                     </ul>
                                 </li> -->
-                            </ul>
-                            <div class="suggested-groups-container">
-                                <h2>Groups for you</h2>
-                                <div class="group-block">
-                                    <div class="group-info">
-                                        <div class="group-image-container">
-                                            <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/demo/groups/1.jpeg" alt="#">
+                                </ul>
+                                <div class="suggested-groups-container">
+                                    <h2>Groups for you</h2>
+                                    <div class="group-block">
+                                        <div class="group-info">
+                                            <div class="group-image-container">
+                                                <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/demo/groups/1.jpeg" alt="#">
+                                            </div>
+                                            <div class="group-meta">
+                                                <span class="group-title">Group 1</span>
+                                            </div>
+                                            <span class="group-members">
+                                                <a href="#">300 members</a>
+                                            </span>
                                         </div>
-                                        <div class="group-meta">
-                                            <span class="group-title">Group 1</span>
+                                    </div>
+                                    <div class="group-block">
+                                        <div class="group-info">
+                                            <div class="group-image-container">
+                                                <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/demo/groups/2.jpeg" alt="#">
+                                            </div>
+                                            <div class="group-meta">
+                                                <span class="group-title">Group 2</span>
+                                            </div>
+                                            <span class="group-members">
+                                                <a href="#">1.9k members</a>
+                                            </span>
                                         </div>
-                                        <span class="group-members">
-                                            <a href="#">300 members</a>
-                                        </span>
+                                    </div>
+                                    <div class="group-block">
+                                        <div class="group-info">
+                                            <div class="group-image-container">
+                                                <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/demo/groups/3.jpeg" alt="#">
+                                            </div>
+                                            <div class="group-meta">
+                                                <span class="group-title">Group 2</span>
+                                            </div>
+                                            <span class="group-members">
+                                                <a href="#">12.9k members</a>
+                                            </span>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="group-block">
-                                    <div class="group-info">
-                                        <div class="group-image-container">
-                                            <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/demo/groups/2.jpeg" alt="#">
-                                        </div>
-                                        <div class="group-meta">
-                                            <span class="group-title">Group 2</span>
-                                        </div>
-                                        <span class="group-members">
-                                            <a href="#">1.9k members</a>
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="group-block">
-                                    <div class="group-info">
-                                        <div class="group-image-container">
-                                            <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/demo/groups/3.jpeg" alt="#">
-                                        </div>
-                                        <div class="group-meta">
-                                            <span class="group-title">Group 2</span>
-                                        </div>
-                                        <span class="group-members">
-                                            <a href="#">12.9k members</a>
-                                        </span>
-                                    </div>
-                                </div>
+                                <ul class="explorer-menu-list">
+                                    <li>
+                                        <a>
+                                            <div class="img-container">
+                                                <img src="../assets/img/icons/explore/friends.svg">
+                                            </div>
+                                            <p>Friends</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <div class="img-container">
+                                                <img src="../assets/img/icons/explore/house.svg">
+                                            </div>
+                                            <p>Groups</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <div class="img-container">
+                                                <img src="../assets/img/icons/explore/chrono.svg">
+                                            </div>
+                                            <p>Stories</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <div class="img-container">
+                                                <img src="../assets/img/icons/explore/calendar.svg">
+                                            </div>
+                                            <p>Events</p>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
-                            <ul class="explorer-menu-list">
-                                <li>
-                                    <a>
-                                        <div class="img-container">
-                                            <img src="../assets/img/icons/explore/friends.svg">
-                                        </div>
-                                        <p>Friends</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a>
-                                        <div class="img-container">
-                                            <img src="../assets/img/icons/explore/house.svg">
-                                        </div>
-                                        <p>Groups</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a>
-                                        <div class="img-container">
-                                            <img src="../assets/img/icons/explore/chrono.svg">
-                                        </div>
-                                        <p>Stories</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a>
-                                        <div class="img-container">
-                                            <img src="../assets/img/icons/explore/calendar.svg">
-                                        </div>
-                                        <p>Events</p>
-                                    </a>
-                                </li>
-                            </ul>
                         </div>
                     </div>
                     <!-- /Left side column -->
