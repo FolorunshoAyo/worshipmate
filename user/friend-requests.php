@@ -3,7 +3,7 @@ require_once dirname(__DIR__) . '/core/Database.php';
 require_once dirname(__DIR__) . '/models/User.php';
 require_once dirname(__DIR__) . '/controllers/AuthController.php';
 
-// $authController->checkUserSession();
+$authController->checkUserSession();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -101,6 +101,15 @@ require_once dirname(__DIR__) . '/controllers/AuthController.php';
             margin-right: 10px;
         }
 
+        body.is-dark .request-block .meta .meta-head a{
+            color: #5596e6;
+        }
+
+        body.is-dark .request-block .meta .meta-head span,
+        body.is-dark .request-block .meta .mutual-friends-container,
+        body.is-dark .request-block .meta .request-alert-message{
+            color: #fff;
+        }
     </style>
 </head>
 

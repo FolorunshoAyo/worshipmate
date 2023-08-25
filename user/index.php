@@ -33,6 +33,10 @@ $authController->checkUserSession();
             border-left: 1px solid #5596e6;
         }
 
+        .suggested-groups-container{
+            padding-right: 30px;
+        }
+
         .suggested-groups-container .group-block:not(:last-child){
             margin-bottom: 10px;
         }
@@ -47,7 +51,7 @@ $authController->checkUserSession();
         }
 
         .suggested-groups-container .group-block .group-info .group-image-container img{
-            max-width: 100%;
+            width: 100%;
             height: 40px;
             border-radius: 50%;
         }
@@ -106,24 +110,29 @@ $authController->checkUserSession();
             font-size: 1rem;
         }
 
-        #activity-feed .columns {
+        #activity-feed .columns,
+        #shadow-dom .columns {
             /* position: relative; */
             justify-content: space-around;
         }
 
-        #activity-feed .columns .column.is-3 {
+        #activity-feed .columns .column.is-3,
+        #shadow-dom .columns .column.is-3 {
             position: fixed;
         }
 
-        #activity-feed .columns .column.is-3:first-child {
+        #activity-feed .columns .column.is-3:first-child,
+        #shadow-dom .columns .column.is-3:first-child {
             left: 0px;
         }
 
-        #activity-feed .columns .column.is-3:last-child {
+        #activity-feed .columns .column.is-3:last-child,
+        #shadow-dom .columns .column.is-3:last-child {
             right: 0px;
         }
 
-        #activity-feed .columns .column.is-3:last-child .scrollable-content {
+        #activity-feed .columns .column.is-3:last-child .scrollable-content
+        #shadow-dom .columns .column.is-3:last-child .scrollable-content {
             height: 100vh;
             overflow: auto;
         }
@@ -132,12 +141,70 @@ $authController->checkUserSession();
             margin-bottom: 100px;
         }
 
+        body.is-dark .suggested-groups-container h2{
+            color: #fff;   
+        }
+
+        body.is-dark .card.is-post .card-heading .user-block .user-info span{
+            font-size: .8rem;
+        }
+
+        .engagement-wrapper{
+            position: absolute;
+            bottom: -18px;
+            right: 0;
+        }
+
+        .engagement-wrapper a{
+            box-shadow: 0 14px 26px -12px rgba(85,150,230,.42),0 4px 23px 0 rgba(0,0,0,.12),0 8px 10px -5px rgba(85,150,230,.2);
+            color: #fff;
+            display: flex;
+            background-color: #6ba4e9; 
+            border-radius: 10px;
+            padding: 0.8rem 10px;
+            align-items: center;
+            font-size: 1rem;
+        }
+
+        .engagement-wrapper a svg{
+            width: 18px;
+            height: 18px;
+            transition: all .3s;
+            margin-right: 10px;
+        }
+
+        .engagement-wrapper a:hover{
+            color: #8ab7ee;
+        }
+
+        .engagement-wrapper a:hover svg{
+            stroke: #fff;
+        }
+
+        .sponsored-footer-wrapper{
+            display: flex;
+            align-items: center;
+            color: #888da8;
+        }
+
+        .sponsored-footer-wrapper svg{
+            height: 18px;
+            width: 18px;
+            stroke: #888da8;
+        }
+
+        .sponsored-footer-wrapper span{
+            margin: 0 5px;
+        }
+
         @media screen and (max-width: 768px) {
-            #activity-feed .columns .column.is-3 {
+            #activity-feed .columns .column.is-3,
+            #shadow-dom .columns .column.is-3{
                 position: static;
             }
 
-            #activity-feed .columns .column.is-3:last-child .scrollable-content {
+            #activity-feed .columns .column.is-3:last-child .scrollable-content,
+            #shadow-dom .columns .column.is-3:last-child .scrollable-content{
                 height: auto;
             }
         }
@@ -151,7 +218,7 @@ $authController->checkUserSession();
     <div class="app-overlay"></div>
 
     <?php
-    include "../views/shared/header.php";
+        include "../views/shared/header.php";
     ?>
     <div class="view-wrapper">
 
@@ -374,6 +441,11 @@ $authController->checkUserSession();
                         include("../views/pages/feed/posts/feed-post-multiple.php");
                         ?>
                         <!-- /POST #3 -->
+                        <!-- SPONSORED POST SAMPLE -->
+                        <?php
+                        include("../views/pages/feed/posts/sponsored-post.php");
+                        ?>
+                        <!-- /SPONSORED POST SAMPLE -->
                         <!-- POST #4 -->
                         <?php
                         include("../views/pages/feed/posts/feed-post-4.php");

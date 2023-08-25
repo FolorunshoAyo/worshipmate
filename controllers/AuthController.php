@@ -47,8 +47,16 @@ class AuthController {
                 }
             }
         }else{
-            if(!isset($_SESSION['user_id'])){
-                header("location:" . $base_url . "signin");
+            if($page === "start"){
+                if(!isset($_SESSION['user_id'])){
+                    header("location:" . $base_url . "signin");
+                }else{
+                    header("location:" . $base_url . "user/");
+                }
+            }else{
+                if(!isset($_SESSION['user_id'])){
+                    header("location:" . $base_url . "signin");
+                }
             }
         }
     }

@@ -25608,6 +25608,34 @@ body.is-dark .error-container .error-wrapper .error-inner h3 {
     font-weight: 500
 }
 
+.card.is-post .user-block .user-info .has-badge{
+    display: flex;
+    align-items: center;
+}
+
+
+.card.is-post .user-block .user-info .has-badge .badge-container{
+    margin-left: 5px;
+}
+
+.card.is-post .user-block .user-info .inline-badge{
+    height: 20px;
+    width: 20px;
+    border: 2px solid #fcfcfc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1ce589
+}
+
+.card.is-post .user-block .user-info .inline-badge svg{
+    height: 8px;
+    width: 8px;
+    stroke: #fcfcfc;
+    stroke-width: 4px
+}
+
 .card.is-post .content-wrap .post-text p,.shop-wrapper .cart-container .cart-content .cart-summary .is-post.summary-card .content-wrap .post-text p {
     color: #757a91;
     font-size: .9rem
@@ -35684,7 +35712,7 @@ body.is-dark .mapboxgl-ctrl-geocoder .mapboxgl-ctrl-geocoder--suggestion-address
     background: #1ce589
 }
 
-.videos-wrapper .videos-sidebar .videos-sidebar-inner .user-block .avatar-wrap .badge svg {
+.videos-wrapper .videos-sidebar .videos-sidebar-inner .user-block .avatar-wrap .badge svg{
     height: 10px;
     width: 10px;
     stroke: #fcfcfc;
@@ -47000,7 +47028,8 @@ body.is-dark .settings-sidebar .settings-sidebar-inner .user-block .avatar-wrap 
     border-color: #425370
 }
 
-body.is-dark .settings-sidebar .settings-sidebar-inner .user-block .avatar-wrap .badge {
+body.is-dark .settings-sidebar .settings-sidebar-inner .user-block .avatar-wrap .badge,
+body.is-dark .card.is-post .user-block .user-info .inline-badge {
     border-color: #1c2330
 }
 

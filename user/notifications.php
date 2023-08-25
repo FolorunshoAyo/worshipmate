@@ -3,7 +3,7 @@ require_once dirname(__DIR__) . '/core/Database.php';
 require_once dirname(__DIR__) . '/models/User.php';
 require_once dirname(__DIR__) . '/controllers/AuthController.php';
 
-// $authController->checkUserSession();
+$authController->checkUserSession();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -117,6 +117,14 @@ require_once dirname(__DIR__) . '/controllers/AuthController.php';
             color: #5596e6;
         }
 
+        body.is-dark .notification .meta span:first-child a{
+            color: #5596e6;
+        }
+
+        body.is-dark .notifications-block h3{
+            color: #fff;
+        }
+
         @media screen and (max-width: 768px){
             .notification .meta span{
                 font-size: 1rem;
@@ -186,7 +194,7 @@ require_once dirname(__DIR__) . '/controllers/AuthController.php';
                                 </div>
                             </div>
                             <div class="meta">
-                                <span><strong>David Kim</strong> commented on <a href="#">your post</a></span>
+                                <span><a href="#">David Kim</a> commented on <a href="#">your post</a></span>
                                 <span>54 minutes ago</span>
                             </div>
                         </div>
@@ -198,7 +206,7 @@ require_once dirname(__DIR__) . '/controllers/AuthController.php';
                                 </div>
                             </div>
                             <div class="meta">
-                                <span><strong>Stella Bergmann</strong> shared a <a href="#">new video</a> on your wall</span>
+                                <span><a href="#">Stella Bergmann</a> shared a <a href="#">new video</a> on your wall</span>
                                 <span>30 minutes ago</span>
                             </div>
                         </div>
@@ -210,7 +218,7 @@ require_once dirname(__DIR__) . '/controllers/AuthController.php';
                                 </div>
                             </div>
                             <div class="meta">
-                                <span><strong>Elise Walker</strong> shared an <a href="#">image</a> with you an 2 other people.</span>
+                                <span><a href="#">Elise Walker</a> shared an <a href="#">image</a> with you an 2 other people.</span>
                                 <span>50 minutes ago</span>
                             </div>
                         </div>
@@ -223,7 +231,7 @@ require_once dirname(__DIR__) . '/controllers/AuthController.php';
                                 </div>
                             </div>
                             <div class="meta">
-                                <span><strong>Daniel Wellington</strong> liked your <a href="#">profile.</a></span>
+                                <span><a href="#">Daniel Wellington</a> liked your <a href="#">profile.</a></span>
                                 <span>1 hour ago</span>
                             </div>
                         </div>
