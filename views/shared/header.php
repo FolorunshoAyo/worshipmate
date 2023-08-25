@@ -225,7 +225,7 @@
                                 </div>
                             </div>
                             <div class="nav-drop-footer">
-                                <a href="#">View All</a>
+                                <a href="<?= $base_url ?>user/notifications">View All</a>
                             </div>
                         </div>
                     </div>
