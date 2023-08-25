@@ -20,54 +20,43 @@ $authController->checkUserSession();
     include_once("../views/embeds/head-embed.php");
     ?>
     <style>
-        .suggested-groups-container {
-            margin-top: 10px;
-        }
-
-        .suggested-groups-container h2 {
-            padding: 5px 10px;
-            margin-bottom: 10px;
-            font-size: .9rem;
-            color: #393a4f;
-            font-weight: 500;
-            border-left: 1px solid #5596e6;
-        }
-
-        .suggested-groups-container {
-            padding-right: 30px;
-        }
-
-        .suggested-groups-container .group-block:not(:last-child) {
+        .feed-menu-v1 .submenu.group-submenu{
+            padding-left: 0px;
             margin-bottom: 10px;
         }
 
-        .suggested-groups-container .group-block .group-info {
+        .group-info {
             display: flex;
             align-items: center;
         }
 
-        .suggested-groups-container .group-block .group-info .group-image-container {
+        .group-info .group-image-container {
             flex: 0 0 40px;
         }
 
-        .suggested-groups-container .group-block .group-info .group-image-container img {
+        .group-info .group-image-container img {
             width: 100%;
             height: 40px;
             border-radius: 50%;
         }
 
-        .suggested-groups-container .group-block .group-info .group-meta {
-            font-size: .8rem;
+        .group-info .group-meta {
             color: #757a91;
-            margin-left: 10px;
+            margin-left: 5px;
             flex: 1;
         }
 
-        .suggested-groups-container .group-block .group-members {
-            font-size: 12px;
+        .group-info .group-meta .group-title{
+            font-size: .7rem !important;
+        }
+
+        .group-members{
+            font-size: 10px !important;
             font-family: roboto, sans-serif;
             font-weight: 500;
             margin-left: 5px;
+            text-align: center;
+            color: #5596e6 !important;
         }
 
 
@@ -142,7 +131,7 @@ $authController->checkUserSession();
             margin-bottom: 100px;
         }
 
-        body.is-dark .suggested-groups-container h2 {
+        body.is-dark h2 {
             color: #fff;
         }
 
@@ -206,8 +195,7 @@ $authController->checkUserSession();
             }
 
             #activity-feed .columns .column.is-3:last-child .scrollable-content,
-            #activity-feed .columns .column.is-3:first-child .scrollable-content
-            #shadow-dom .columns .column.is-3:last-child .scrollable-content {
+            #activity-feed .columns .column.is-3:first-child .scrollable-content #shadow-dom .columns .column.is-3:last-child .scrollable-content {
                 height: auto;
             }
         }
@@ -341,52 +329,60 @@ $authController->checkUserSession();
                                         </li>
                                     </ul>
                                 </li> -->
-                                </ul>
-                                <div class="suggested-groups-container">
-                                    <h2>Groups for you</h2>
-                                    <div class="group-block">
-                                        <div class="group-info">
-                                            <div class="group-image-container">
-                                                <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/demo/groups/1.jpeg" alt="#">
-                                            </div>
-                                            <div class="group-meta">
-                                                <span class="group-title">Group 1</span>
-                                            </div>
-                                            <span class="group-members">
-                                                <a href="#">300 members</a>
-                                            </span>
-                                        </div>
-                                    </div>
-                                    <div class="group-block">
-                                        <div class="group-info">
-                                            <div class="group-image-container">
-                                                <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/demo/groups/2.jpeg" alt="#">
-                                            </div>
-                                            <div class="group-meta">
-                                                <span class="group-title">Group 2</span>
-                                            </div>
-                                            <span class="group-members">
-                                                <a href="#">1.9k members</a>
-                                            </span>
-                                        </div>
-                                    </div>
-                                    <div class="group-block">
-                                        <div class="group-info">
-                                            <div class="group-image-container">
-                                                <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/demo/groups/3.jpeg" alt="#">
-                                            </div>
-                                            <div class="group-meta">
-                                                <span class="group-title">Group 2</span>
-                                            </div>
-                                            <span class="group-members">
-                                                <a href="#">12.9k members</a>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <ul class="explorer-menu-list">
                                     <li>
                                         <a>
+                                            <i data-feather="users"></i>
+                                            <span>Groups for you</span>
+                                            <span class="close-icon">
+                                                <i data-feather="chevron-right"></i>
+                                            </span>
+                                        </a>
+                                        <ul class="submenu group-submenu">
+                                            <li>
+                                                <a href="#" class="group-info">
+                                                    <div class="group-image-container">
+                                                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/demo/groups/1.jpeg" alt="#">
+                                                    </div>
+                                                    <div class="group-meta">
+                                                        <span class="group-title">Group 1</span>
+                                                    </div>
+                                                    <span class="group-members">
+                                                        300 <br>members
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="group-info">
+                                                    <div class="group-image-container">
+                                                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/demo/groups/2.jpeg" alt="#">
+                                                    </div>
+                                                    <div class="group-meta">
+                                                        <span class="group-title">Group 2</span>
+                                                    </div>
+                                                    <span class="group-members">
+                                                        1.9k <br> members
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="group-info">
+                                                    <div class="group-image-container">
+                                                        <img src="https://via.placeholder.com/300x300" data-demo-src="../assets/img/demo/groups/3.jpeg" alt="#">
+                                                    </div>
+                                                    <div class="group-meta">
+                                                        <span class="group-title">Group 2</span>
+                                                    </div>
+                                                    <span class="group-members">
+                                                        12.9k <br> members
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <ul class="explorer-menu-list">
+                                    <li>
+                                        <a href="./friends-list">
                                             <div class="img-container">
                                                 <img src="../assets/img/icons/explore/friends.svg">
                                             </div>
@@ -394,7 +390,7 @@ $authController->checkUserSession();
                                         </a>
                                     </li>
                                     <li>
-                                        <a>
+                                        <a href="./groups">
                                             <div class="img-container">
                                                 <img src="../assets/img/icons/explore/house.svg">
                                             </div>
@@ -402,7 +398,7 @@ $authController->checkUserSession();
                                         </a>
                                     </li>
                                     <li>
-                                        <a>
+                                        <a href="./stories">
                                             <div class="img-container">
                                                 <img src="../assets/img/icons/explore/chrono.svg">
                                             </div>
@@ -410,7 +406,7 @@ $authController->checkUserSession();
                                         </a>
                                     </li>
                                     <li>
-                                        <a>
+                                        <a href="./events">
                                             <div class="img-container">
                                                 <img src="../assets/img/icons/explore/calendar.svg">
                                             </div>
