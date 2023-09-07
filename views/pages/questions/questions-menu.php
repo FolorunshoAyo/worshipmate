@@ -12,19 +12,19 @@
         </a>
     </li>
     <li>
-        <a href="questions-stats">
+        <a href="question-stats">
             <i data-feather="hexagon"></i>
             <span>My Stats</span>
         </a>
     </li>
     <li>
-        <a href="questions-categories">
+        <a href="question-categories">
             <i data-feather="layers"></i>
             <span>Categories</span>
         </a>
     </li>
-    <li class="is-active">
-        <a href="questions-settings">
+    <li>
+        <a href="question-settings">
             <i data-feather="settings"></i>
             <span>Settings</span>
         </a>
@@ -33,7 +33,7 @@
 
 <ul class="questions-menu">
     <li>
-        <a href="questions-home">
+        <a href="question-home">
             <i data-feather="home"></i>
             <span>Home</span>
         </a>
@@ -45,19 +45,19 @@
         </a>
     </li>
     <li>
-        <a href="questions-stats">
+        <a href="question-stats">
             <i data-feather="hexagon"></i>
             <span>My Stats</span>
         </a>
     </li>
     <li>
-        <a href="questions-categories">
+        <a href="question-categories">
             <i data-feather="layers"></i>
             <span>Categories</span>
         </a>
     </li>
     <li>
-        <a href="questions-settings">
+        <a href="question-settings">
             <i data-feather="settings"></i>
             <span>Settings</span>
         </a>

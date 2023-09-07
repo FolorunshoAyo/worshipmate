@@ -406,6 +406,14 @@ $authController->checkUserSession();
                                         </a>
                                     </li>
                                     <li>
+                                        <a href="./question-home">
+                                            <div class="img-container">
+                                                <img src="../assets/img/icons/explore/question.svg">
+                                            </div>
+                                            <p>Questions</p>
+                                        </a>
+                                    </li>
+                                    <li>
                                         <a href="./events">
                                             <div class="img-container">
                                                 <img src="../assets/img/icons/explore/calendar.svg">

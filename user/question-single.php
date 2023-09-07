@@ -117,7 +117,7 @@ $authController->checkUserSession();
                         <div class="column">
                             <!--Top Bar-->
                             <div class="top-single-header has-text-right">
-                                <a class="button is-solid grey-button is-rounded">Back To Questions</a>
+                                <a href="question-home" class="button is-solid grey-button is-rounded">Back To Questions</a>
                             </div>
                             <!-- /html/partials/global/placeload/placeloads/questions-single-placeload.html -->
                             <div class="placeload is-bold questions-single-placeload is-header">
@@ -158,7 +158,7 @@ $authController->checkUserSession();
                             <div class="question-content">
                                 <!--Top Bar-->
                                 <div class="top-single-header has-text-right">
-                                    <a class="button is-solid grey-button is-rounded">Back To Questions</a>
+                                    <a href="question-home" class="button is-solid grey-button is-rounded">Back To Questions</a>
                                 </div>
                                 <!-- Main question -->
                                 <div class="question-block">

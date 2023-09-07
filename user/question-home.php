@@ -104,7 +104,7 @@
                             <!-- Question -->
                             <div class="question-block">
                                 <!-- Title -->
-                                <a href="questions-single.html" class="question-title is-link">What's a mutation observer?</a>
+                                <a href="question-single" class="question-title is-link">What's a mutation observer?</a>
                                 <!-- Author -->
                                 <div class="question-author">
                                     <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/milly.jpg" data-user-popover="7" alt="" />
@@ -148,7 +148,7 @@
                             <!-- Question -->
                             <div class="question-block is-top-spaced">
                                 <!-- Title -->
-                                <a href="questions-single.html" class="question-title is-link">Is there a simple guide for Sass Mixins?</a>
+                                <a href="question-single" class="question-title is-link">Is there a simple guide for Sass Mixins?</a>
                                 <!-- Author -->
                                 <div class="question-author">
                                     <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/brian.jpg" data-user-popover="19" alt="" />
@@ -195,7 +195,7 @@
                             <!-- Question -->
                             <div class="question-block is-top-spaced">
                                 <!-- Title -->
-                                <a href="questions-single.html" class="question-title is-link">Is React compatible with jQuery?</a>
+                                <a href="question-single" class="question-title is-link">Is React compatible with jQuery?</a>
                                 <!-- Author -->
                                 <div class="question-author">
                                     <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/lana.jpeg" data-user-popover="10" alt="" />
@@ -240,7 +240,7 @@
                             <!-- Question -->
                             <div class="question-block is-top-spaced">
                                 <!-- Title -->
-                                <a href="questions-single.html" class="question-title is-link">X-Wing animation with CSS only?</a>
+                                <a href="question-single" class="question-title is-link">X-Wing animation with CSS only?</a>
                                 <!-- Author -->
                                 <div class="question-author">
                                     <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/azzouz.jpg" data-user-popover="20" alt="" />
@@ -286,7 +286,7 @@
                             <!-- Question -->
                             <div class="question-block is-top-spaced">
                                 <!-- Title -->
-                                <a href="questions-single.html" class="question-title is-link">Difference between fluid and responsive layouts?</a>
+                                <a href="question-single" class="question-title is-link">Difference between fluid and responsive layouts?</a>
                                 <!-- Author -->
                                 <div class="question-author">
                                     <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/daniel.jpg" data-user-popover="3" alt="" />
@@ -330,7 +330,7 @@
                             <!-- Question -->
                             <div class="question-block is-top-spaced">
                                 <!-- Title -->
-                                <a href="questions-single.html" class="question-title is-link">How can I handle photos with javascript?</a>
+                                <a href="question-single" class="question-title is-link">How can I handle photos with javascript?</a>
                                 <!-- Author -->
                                 <div class="question-author">
                                     <img src="https://via.placeholder.com/150x150" data-demo-src="../assets/img/avatars/dan.jpg" data-user-popover="1" alt="" />

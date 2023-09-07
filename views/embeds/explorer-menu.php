@@ -49,10 +49,10 @@
                         <h4>Stories</h4>
                     </a>
                     <!--item-->
-                    <!-- <a href="/navbar-v1-questions-home.html" class="explore-item">
+                    <a href="/navbar-v1-questions-home.html" class="explore-item">
                         <img src="../assets/img/icons/explore/question.svg" alt="">
                         <h4>Questions</h4>
-                    </a> -->
+                    </a>
                     <!--item-->
                     <!-- <a href="news.html" class="explore-item">
                         <img src="../assets/img/icons/explore/news.svg" alt="">
